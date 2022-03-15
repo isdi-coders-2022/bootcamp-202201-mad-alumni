@@ -1,0 +1,35 @@
+{
+  "name": "ch2-w3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heber2525/2022-CH2-W3-heber_baraybar.git"
+  },
+  "author": "Heber",
+  "prettier": {
+    "singleQuote": true
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heber2525/2022-CH2-W3-heber_baraybar/issues"
+  },
+  "homepage": "https://github.com/heber2525/2022-CH2-W3-heber_baraybar#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "sass": "^1.49.4"
+  }
+}

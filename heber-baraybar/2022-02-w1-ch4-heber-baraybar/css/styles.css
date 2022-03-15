@@ -1,0 +1,87 @@
+.section__third-price, .section__second-price, .section__first-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: orange;
+  font-size: 18px;
+}
+
+img {
+  width: 16px;
+  height: 16px;
+}
+
+.third__price-x, .first__price-x {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-right: 10px;
+}
+
+.--check-bread {
+  text-decoration: line-through;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 560px;
+}
+
+.header {
+  display: flex;
+  background-color: #42428f;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__h1 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.header-list-bold {
+  font-weight: bold;
+}
+
+.paid__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bb892d;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.second__price-x {
+  margin-right: 10px;
+}
+
+.--check-milk {
+  text-decoration: line-through;
+}
+
+.section__final-price {
+  padding-right: 10px;
+  height: 50px;
+  background-color: orange;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 1px;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

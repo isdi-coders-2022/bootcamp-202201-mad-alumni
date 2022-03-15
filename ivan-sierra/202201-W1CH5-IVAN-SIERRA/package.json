@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "sass": "^1.49.0"
+  },
+  "name": "202201-w1ch5-ivan-sierra",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w web.scss web.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSisa/202201-W1CH5-IVAN-SIERRA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanSisa/202201-W1CH5-IVAN-SIERRA/issues"
+  },
+  "homepage": "https://github.com/IvanSisa/202201-W1CH5-IVAN-SIERRA#readme"
+}

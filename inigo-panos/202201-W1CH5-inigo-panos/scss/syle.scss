@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+%header{
+    display:flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header_nav{
+    @extend %header;
+    background-color: #15FFBC;
+
+    & a{
+        font-family: "Oswald", sans-serif;
+        display: flex;
+        align-content: center;
+    }
+
+    .header_nav-logo{
+        justify-content: center;
+        margin:20px;
+    }
+}

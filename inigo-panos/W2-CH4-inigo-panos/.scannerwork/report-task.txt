@@ -1,0 +1,6 @@
+projectKey=CalculatorHTML-2
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=CalculatorHTML-2
+ceTaskId=AX6civXhwMHHOh14DsHW
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX6civXhwMHHOh14DsHW

@@ -1,0 +1,15 @@
+.h1 {
+  display: none;
+}
+.logo {
+  margin-left: 20rem;
+  width: 60px;
+}
+.header {
+  background-color: white;
+  margin-bottom: 10rem;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #00a1e0;
+}

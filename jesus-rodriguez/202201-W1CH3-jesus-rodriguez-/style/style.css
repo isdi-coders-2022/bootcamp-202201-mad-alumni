@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap");
+
+@media only screen and (max-width: 768px) {
+  .content-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-title {
+    color: #dd6b45;
+    margin: 0px;
+    padding-top: 3%;
+    font-size: 10px;
+  }
+
+  .title-section {
+    font-size: 10px;
+    margin: 0px;
+
+    padding: 0px;
+  }
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+/**HEADER**/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+
+.logo {
+  width: 3%;
+  height: 3%;
+  padding-left: 4%;
+}
+
+/****************************/
+
+/***NAV**/
+
+.nav {
+  width: 60%;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  padding-right: 3%;
+  justify-content: end;
+  list-style: none;
+  font-size: 22px;
+}
+
+.nav-list__item {
+  margin-right: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+/**************/
+
+.content-images {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-images__iamges-animals {
+  margin: 20px;
+  border-radius: 10%;
+  width: 32%;
+}
+.title-section {
+  font-size: 75px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-title {
+  color: #dd6b45;
+  margin: 0px;
+  padding-top: 3%;
+  font-size: 30px;
+}
+
+/**********************************/
+.button {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  width: 200px;
+  height: 65px;
+}
+
+.button-buy {
+  padding-left: 20px;
+  border-color: #dd6b45;
+  border-style: solid;
+  margin-right: 25px;
+}
+
+.button-view {
+  background-color: #dd6b45;
+  color: white;
+  border-style: none;
+}
+.button-buy:hover {
+  background-color: #dd6b45;
+  color: white;
+}
+
+.button-view:hover {
+  background-color: white;
+  color: #dd6b45;
+  border-color: #dd6b45;
+  border-style: solid;
+}
+
+/*******************/
+
+.main-container {
+  padding: 4rem;
+}
+
+.container-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

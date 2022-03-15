@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="/index.html">Sebastian y Max</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/quienes-somos.html">¿Quiénes Somos?</a>
+                    </li>
+                    <li>
+                        <a href="/nuestros-cv.html">Nuestros CV</a>
+                    </li>
+                    <li>
+                        <a href="/contactos.html">Contactos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <form method="post">
+            <fieldset>
+                <label for="name">Ingrese su nombre:</label>
+                <br />
+                <input id="name" type="text" name="nombre" value="Peter" />
+                <br />
+                <br />
+                <label for="email">Ingrese su email: </label>
+                <br />
+                <input
+                    id="email"
+                    type="email"
+                    name="direccionemail"
+                    placeholder="Ej.: peter@outlook.es"
+                />
+                <br />
+                <br />
+                <label for="comment">Comentarios:</label>
+                <br />
+                <textarea
+                    id="comment"
+                    name="comentarios"
+                    placeholder="Escribe tu opinión..."
+                >
+                </textarea>
+                <br />
+                <br />
+                <input type="submit" value="Enviar info" />
+                <input type="reset" value="Restaurar info" />
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "name": "challenge04",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.7.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.4"
+    },
+    "type": "module",
+    "prettier": {
+        "singleQuote": true
+    }
+}

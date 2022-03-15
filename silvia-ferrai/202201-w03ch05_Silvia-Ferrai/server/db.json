@@ -1,0 +1,28 @@
+{
+  "pokemon": [
+    {
+      "name": "weedle",
+      "weight": 32,
+      "height": 3,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "url": "https://pokeapi.co/api/v2/pokemon/13/",
+      "id": 1
+    },
+    {
+      "name": "pidgeotto",
+      "weight": 300,
+      "height": 11,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "url": "https://pokeapi.co/api/v2/pokemon/17/",
+      "id": 2
+    },
+    {
+      "name": "fearow",
+      "weight": 380,
+      "height": 12,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "url": "https://pokeapi.co/api/v2/pokemon/22/",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #0b5cab;
+  border: 1px solid transparent;
+}
+button:hover {
+  background-color: #217405;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+
+input {
+  border-radius: 7px;
+}

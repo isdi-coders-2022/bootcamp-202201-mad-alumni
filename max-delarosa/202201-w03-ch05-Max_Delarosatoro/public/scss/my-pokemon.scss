@@ -1,0 +1,24 @@
+@use 'variables';
+@use 'normalize';
+
+@use '_pokemon';
+
+@use 'header';
+
+.hide {
+    display: none;
+}
+
+.pokemon {
+    &__title-input {
+        padding: 0.5rem 0.7rem;
+        margin-bottom: 1rem;
+        background-color: variables.$secondary-color;
+        color: variables.$primary-color-variation;
+        font-size: 1.2rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+}

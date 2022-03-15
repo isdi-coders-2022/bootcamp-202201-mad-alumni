@@ -1,0 +1,24 @@
+{
+  "name": "weekend-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amorga97/202201-w1ch5-antonio-morga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amorga97/202201-w1ch5-antonio-morga/issues"
+  },
+  "homepage": "https://github.com/amorga97/202201-w1ch5-antonio-morga#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "sass": "^1.49.0"
+  }
+}

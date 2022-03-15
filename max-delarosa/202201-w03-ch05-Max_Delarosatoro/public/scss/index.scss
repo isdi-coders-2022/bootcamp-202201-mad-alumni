@@ -1,0 +1,27 @@
+@use 'variables';
+@use 'normalize';
+
+@use 'header';
+
+@use 'pokemon-list';
+
+.button-container {
+    display: flex;
+    column-gap: 1rem;
+
+    &__button {
+        padding: 0.5rem 0.5rem;
+        width: 100px;
+    }
+}
+
+.navigation-container {
+    display: flex;
+    column-gap: 0.5rem;
+    margin-top: 1rem;
+    color: variables.$primary-color;
+
+    &__page-link {
+        cursor: pointer;
+    }
+}

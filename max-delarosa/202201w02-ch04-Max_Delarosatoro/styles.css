@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease all;
+    font-family: 'Arial';
+}
+
+.app {
+    background-color: #3565B8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left-container, .right-container {
+    height: 100vh;
+    width: 50%;
+}
+
+.left-container {
+    padding: 3rem;
+}
+
+.pasapalabra-circle {
+    height: 60vh;
+    width: 60vh;
+    margin: 4rem auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.letter {
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    border: 2px solid #B1B4B9;
+    color: #B1B4B9;
+    background-color: #034284;
+    user-select: none;
+}
+
+.current-letter {
+    background-color: purple;
+}
+
+.timer {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: #034284;
+    border-radius: 50%;
+    color: #B1B4B9;
+    font-family: 'Arial';
+    border: 2px solid #B1B4B9;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.welcome-title, .game-description {
+    color: #B9B9B9;
+    font-family: 'Arial';
+}
+
+.welcome-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: -8rem;
+}
+
+.game-description {
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.play-button {
+    border: 2px solid #B1B4B9;
+    background-color: #036EDD;
+    color: #B1B4B9;
+    font-size: 1.5rem;
+    width: fit-content;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.play-button:hover {
+    transition: 0.3s ease all;
+    background-color: white;
+    border: 2px solid #036EDD;
+    color: #036EDD;
+}
+
+.hide {
+    display: none;
+}
+
+.game-input {
+    padding: 1rem;
+    background-color: #034284;
+    color: #B1B4B9;
+    border: 2px solid #B1B4B9;
+    font-family: 'Arial';
+    font-size: 2rem;
+}
+
+.question {
+    font-family: 'Arial';
+    color: #B1B4B9;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.correct-answer {
+    background-color: green;
+}
+
+.wrong-answer {
+    background-color: red;
+}
+
+.no-answer {
+    background-color: #034284;
+}
+
+.final-score {
+    font-family: 'Arial';
+    color: #B1B4B9;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.rotate-container {
+    transform: rotate(270deg);
+}
+
+.rotate-letter {
+    transform: rotate(90deg);
+}
+
+.center-letter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+    border: 4px solid #B1B4B9;
+    background-color: #034284;
+    color: #B1B4B9;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    line-height: 8rem;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-top: -3rem;
+    margin-left: -4rem;
+}

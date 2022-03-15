@@ -1,0 +1,64 @@
+#calculadora{
+    background-color: grey;
+}
+
+input[type="text"]{
+    background-color: rgb(2, 2, 24);
+    border: 1px solid rgb(7, 9, 97);
+    border-radius: 6px;
+    box-shadow: 1px 1px 7px rgb(4, 5, 39) inset;
+    color: white;    
+    font-family: arial, verdana;
+    font-size: 16px;
+    font-weight: bold;     
+    height: 30px;
+    width: 287px;
+    transition: all 100ms; 
+    text-align: right;     
+}
+
+
+
+input[type="button"]{
+    background-color: rgb(19, 22, 165);
+    border: 1px solid rgb(7, 9, 97);
+    box-shadow: 1px 1px 7px rgb(4, 5, 39) inset;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer; 
+    font-family: arial, verdana;
+    font-size: 16px;
+    font-weight: bold;     
+    height: 30px;
+    width: 70px;
+    transition: all 100ms;      
+}
+
+input[type="button"].largo{
+    width: 145px;
+}
+
+input[type="button"].aritmetico{
+    background-color: rgb(216, 88, 15);
+    border: 1px solid rgb(240, 125, 17); 
+    box-shadow: 1px 1px 7px rgb(61, 30, 1) inset;
+}
+
+input[type="button"]:hover{
+    color: white;
+    background-color: #00aadb; 
+    box-shadow: 0px 0px 7px grey inset; 
+}
+
+
+input[type="button"].aritmetico:hover{
+    color: white;
+    background-color: #f3c324; 
+    box-shadow: 0px 0px 7px grey inset; 
+}
+
+
+
+
+
+

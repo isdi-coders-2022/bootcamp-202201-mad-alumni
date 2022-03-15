@@ -1,0 +1,9 @@
+.btn {
+  background-color: #0b5cab;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btn:hover {
+  background-color: red;
+}

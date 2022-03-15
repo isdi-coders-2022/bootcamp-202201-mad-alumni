@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease all;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #33589f;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #ffcd03ce;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+}
+.header__logo {
+  width: 120px;
+}
+.header__nav {
+  display: flex;
+  column-gap: 2rem;
+}
+.header__link {
+  text-decoration: none;
+  color: #33589f;
+}
+.main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#pokemon {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 12.5vw;
+  border: 1px solid black;
+  padding: 3rem;
+  background-color: #ffcd03ce;
+  box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.6);
+  max-width: 1000px;
+  width: fit-content;
+  border-radius: 1rem;
+}
+.pokemon__img-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokemon__title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+.pokemon__img {
+  width: 10rem;
+}
+.pokemon__sprites-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pokemon__sprite-container {
+  width: 40px;
+}
+.pokemon__sprite {
+  width: 100%;
+  cursor: pointer;
+}
+.pokemon__sprite:hover {
+  transform: scale(1.2);
+}
+.pokemon__info-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.pokemon__info-title {
+  font-size: 1.5rem;
+}
+.pokemon__abilities-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2rem;
+}
+.pokemon__ability-name {
+  text-transform: capitalize;
+}
+.pokemon__info-label {
+  font-weight: bold;
+}
+.pokemon__types-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2rem;
+}
+.pokemon__type {
+  text-transform: capitalize;
+}
+.pokemon__add-button, .pokemon__button {
+  align-self: center;
+  padding: 0.3rem 0.5rem;
+  background-color: #33589f;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  color: #ffcd03ce;
+  cursor: pointer;
+  min-width: 120px;
+}
+.pokemon__add-button:hover, .pokemon__button:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=pokemon.css.map */

@@ -1,0 +1,84 @@
+{
+  "series": [
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": true,
+      "score": 1,
+      "emmies": 116,
+      "id": 1
+    },
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": false,
+      "score": 2,
+      "emmies": 116,
+      "id": 2
+    },
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": false,
+      "score": 3,
+      "emmies": 116,
+      "id": 3
+    },
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": false,
+      "score": 4,
+      "emmies": 116,
+      "id": 5
+    },
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": false,
+      "score": 5,
+      "emmies": 116,
+      "id": 6
+    },
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": true,
+      "score": 5,
+      "emmies": 116,
+      "id": 7
+    },
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": false,
+      "score": 5,
+      "emmies": 116,
+      "id": 8
+    },
+    {
+      "name": "Lord of the Rings: The Two Towers",
+      "creator": "J.R.R. Tolkien",
+      "year": 1893,
+      "poster": "https://pics.filmaffinity.com/Mad_Men_Serie_de_TV-351490728-large.jpg",
+      "watched": false,
+      "score": 5,
+      "emmies": 116,
+      "id": 14
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #00a1e0;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.title {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.data {
+  margin: 5px;
+}

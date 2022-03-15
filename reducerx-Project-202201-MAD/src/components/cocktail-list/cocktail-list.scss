@@ -1,0 +1,135 @@
+main {
+    background-color: #282828;
+}
+
+.cocktail-list {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50vw 50vw 50vw 50vw;
+    grid-auto-rows: 0px;
+
+    &__name {
+        overflow: hidden;
+        position: relative;
+    }
+    &__name img {
+        width: 100%;
+        padding: 0.5rem;
+        border: 0.2rem solid #282828;
+        border-radius: 2.5rem;
+    }
+    .cocktail-title__mobile {
+        position: absolute;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        -webkit-text-stroke: 1px black;
+        padding: 2rem;
+        top: 25px;
+    }
+    .cocktail-title__desktop {
+        display: none;
+    }
+}
+.cocktails-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    & button {
+        padding: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #f45a7f;
+        border: 0.1rem solid #ffffff;
+        border-radius: 1rem;
+    }
+    &__next,
+    &__previous {
+        font-size: 0.8rem;
+        font-weight: medium;
+        color: white;
+    }
+}
+
+@media (min-width: 600px) {
+    main {
+        background-color: #282828;
+        padding-top: 5rem;
+    }
+    .cocktail-list {
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 30vw 30vw;
+        grid-auto-rows: 0px;
+        padding: 1.2rem;
+        &__name {
+            overflow: hidden;
+        }
+        .cocktail-title__desktop {
+            display: contents;
+            color: white;
+            font-size: 20px;
+        }
+        .cocktail-title__desktop:hover {
+            cursor: pointer;
+            color: #f36183;
+            transform: translateY(1px);
+        }
+
+        &__name img {
+            width: 100%;
+            border: 0.2rem solid #282828;
+            border-radius: 2.5rem;
+            padding: 0.5rem;
+        }
+        &__name img:hover {
+            cursor: pointer;
+            transform: scale(0.9);
+            border-radius: 50%;
+            transition: all ease-in-out 0.3s;
+        }
+        &__name img:active {
+            cursor: pointer;
+            transition: 0.5s;
+        }
+    }
+    .cocktails-navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+        padding: 1rem;
+        padding-bottom: 3rem;
+        & button {
+            padding: 2rem;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            background-color: #f45a7f;
+            border: 0.12rem solid #ffffff;
+            border-radius: 1rem;
+        }
+        & button:hover {
+            cursor: pointer;
+            transform: scale(1.02);
+            transition: all ease-in-out 0.2s;
+            background-color: white;
+            color: #f45a7f;
+            border-color: white;
+        }
+        &__next,
+        &__previous {
+            font-size: 1rem;
+            font-weight: medium;
+            color: white;
+        }
+    }
+    .cocktail-title__mobile {
+        display: none;
+    }
+}

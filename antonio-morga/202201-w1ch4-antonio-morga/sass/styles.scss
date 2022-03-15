@@ -1,0 +1,189 @@
+@use "mixins";
+@use "variables";
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ff8d27;
+    color: variables.$dark-gray;
+}
+
+%block {
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    width: 100%;
+}
+
+.nav {
+    @include mixins.flex(space-between);
+    @extend %block;
+    background-color: variables.$header-color;
+    height: 80px;
+    gap: 50px;
+
+    & .page-title {
+        font-weight: 800;
+        font-size: variables.$title-size;
+    }
+
+    & .menu {
+        @include mixins.flex(center);
+        gap: 1rem;
+
+        &__item {
+            list-style-type: none;
+        }
+
+        &__item:hover {
+            font-weight: bold;
+        }
+
+        &__item--2 {
+            font-weight: bold;
+        }
+    }
+}
+
+main {
+    height: calc(100vh - 80px);
+}
+
+.shopping-planning,
+.article-edit {
+    @include mixins.flex(flex-start, column, flex-start);  
+}
+
+.items-bought {
+    @include mixins.flex();
+    @extend %block;
+    background-color: variables.$dark-orange;
+    height: 60px;
+    border-bottom: 1px solid #e06a00;
+    margin-bottom: 20px;
+
+    &__counter {
+        font-size: variables.$title-size;
+    }
+}
+
+.fa-plus-circle,
+.fa-minus-circle {
+    font-size: 1.8rem;
+    color: variables.$dark-gray;
+}
+
+.shopping-list {
+    @include mixins.flex(flex-start, column);
+    background-color: #ff8d27;
+    list-style-type: none;
+    width: 100%;
+
+    &__item {
+        @extend %block;
+        width: 100%;
+        gap: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: variables.$p-size;
+
+        & > div {
+            @include mixins.flex(space-between);
+            width: 100%;
+            height: 30px;
+        }
+    }
+
+    &__item:hover {
+        color: white;
+    }
+
+    &__item-name{
+        @include mixins.flex();
+        height: 100%;
+    }
+    &__item-price{
+        @include mixins.flex();
+        height: 100%;
+    }
+
+    &__item-price--bought {
+        text-decoration: line-through;
+    }
+}
+
+.fa-times {
+    margin-left: 10px;
+    font-size: calc(variables.$p-size * 1.1);
+}
+
+input {
+    margin-right: 10px;
+}
+
+.total {
+    @include mixins.flex();
+    @extend %block;
+    background-color: #ff8d27;
+    padding-top: 0;
+    font-size: variables.$title-size;
+
+    &__block {
+        @include mixins.flex(flex-end);
+        width: 100%;
+        height: 40px;
+        padding-top: 20px;
+        border-top: solid 1px lightgray;
+    }
+}
+
+.article-edit {
+    @include mixins.flex(flex-start, column);
+    align-items: flex-start;
+
+    &__title {
+        @extend %block;
+        padding-top: 20;
+        margin-top: 5px;
+        padding-bottom: 0;
+        font-size: calc(variables.$title-size * 0.8);
+    }
+
+    &__form-body {
+        @extend .article-edit;
+        @extend %block;
+        gap: 5px;
+        padding-top: 5px;
+    }
+
+    &__input {
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        padding: 10px;
+    }
+
+    &__input-label {
+        font-size: variables.$p-size;
+    }
+
+    &__submit {
+        font: inherit;
+        font-size: variables.$p-size;
+        padding-top: 0.5rem;
+        padding-right: 0.2rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.2rem;
+        border: none;
+        background-color: #5e81d1;
+        color: white;
+    }
+}

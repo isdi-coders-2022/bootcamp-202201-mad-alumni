@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(224, 233, 210);
+}
+h1 {
+    text-align: center;
+}
+section {
+    text-align: center;
+}
+ul {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ul li {
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Pokemon GB';
+    font-size: larger;
+    padding: 10px;
+    background-color: rgba(130, 189, 216, 0.452);
+}
+
+.pokemon-list a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+}
+.details-buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.details-buttons button {
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+}
+#buttonFavorites {
+    letter-spacing: -2px;
+}
+.currentIndex {
+    text-transform: capitalize;
+    font-family: 'Pokemon GB';
+}
+button {
+    text-transform: capitalize;
+    font-family: 'Pokemon GB';
+}
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.pokemon-list li {
+    list-style-image: url('/pokeball.png');
+}
+.pokemon-details img {
+    background-image: url('/borderbox.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}

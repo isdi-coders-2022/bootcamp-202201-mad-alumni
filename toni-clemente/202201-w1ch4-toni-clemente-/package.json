@@ -1,0 +1,23 @@
+{
+  "name": "challenge4",
+  "version": "1.0.0",
+  "description": "\"# 202201-w1ch4-toni-clemente-\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anchounio/202201-w1ch4-toni-clemente-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anchounio/202201-w1ch4-toni-clemente-/issues"
+  },
+  "homepage": "https://github.com/anchounio/202201-w1ch4-toni-clemente-#readme",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}

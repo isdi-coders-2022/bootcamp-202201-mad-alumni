@@ -1,0 +1,51 @@
+{
+  "name": "202201-w3ch2-ivan-sierra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "test:watch": "jest --watchAll",
+    "test:cov": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSisa/202201-W3CH2-IVAN-SIERRA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanSisa/202201-W3CH2-IVAN-SIERRA/issues"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "homepage": "https://github.com/IvanSisa/202201-W3CH2-IVAN-SIERRA#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.4.7"
+  },
+  "env": {
+    "jest/globals": true
+  },
+  "plugins": [
+    "jest"
+  ],
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}

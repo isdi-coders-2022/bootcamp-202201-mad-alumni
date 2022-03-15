@@ -1,0 +1,22 @@
+@use '../../../sass/_variables.scss';
+
+.header {
+    display: flex;
+    justify-content: center;
+    column-gap: calc(100vw / 2);
+    align-items: center;
+    height: 100px;
+    background-color: variables.$primary-color;
+    color: white;
+
+    &__auth-container {
+        display: flex;
+    }
+
+    &__login-button {
+        text-decoration: none;
+        display: block;
+        background-color: white;
+        padding: 0.3rem 0.5rem;
+    }
+}

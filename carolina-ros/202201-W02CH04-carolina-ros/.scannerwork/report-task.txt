@@ -1,0 +1,6 @@
+projectKey=Calculadora-Bootcamp
+serverUrl=http://localhost:9000
+serverVersion=9.2.4.50792
+dashboardUrl=http://localhost:9000/dashboard?id=Calculadora-Bootcamp
+ceTaskId=AX6chzP7DvYH3b4Z-2CM
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX6chzP7DvYH3b4Z-2CM

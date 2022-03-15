@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #264d73;
+    font-size: 2.5rem;
+}
+h2,
+h3 {
+    color: #444;
+    font-weight: lighter;
+}
+h3 {
+    font-size: 1.3rem;
+}
+body {
+    padding: 0.5rem;
+    max-width: 1000px;
+    margin: auto;
+}
+@media (min-width: 600px) {
+    body {
+        padding: 2rem;
+    }
+}
+body,
+input[text] {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+}
+a {
+    cursor: pointer;
+}
+button {
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+/* Navigation link styles */
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #3d3d3d;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #42545c;
+}
+nav a.active {
+    background-color: black;
+    color: white;
+}
+hr {
+    margin: 1.5rem 0;
+}
+input[type='text'] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.heroes-menu {
+    padding: 0;
+    margin: auto;
+    max-width: 1000px;
+    /* flexbox */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+a {
+    background-color: #3f525c;
+    border-radius: 2px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-width: 70px;
+    margin: 5px;
+    box-sizing: border-box;
+    /* flexbox */
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+@media (min-width: 600px) {
+    a {
+        width: 18%;
+        box-sizing: content-box;
+    }
+}
+a:hover {
+    background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

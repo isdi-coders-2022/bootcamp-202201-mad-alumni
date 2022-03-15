@@ -1,0 +1,10 @@
+@use "variables";
+
+@mixin title() {
+    font-family: variables.$secondary-font;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}

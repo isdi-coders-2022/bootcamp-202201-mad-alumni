@@ -1,0 +1,20 @@
+{
+    "name": "q",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass:watch": "sass --watch sass:css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CarolRdR/202201-W01CH04-carolina-ros.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CarolRdR/202201-W01CH04-carolina-ros/issues"
+    },
+    "homepage": "https://github.com/CarolRdR/202201-W01CH04-carolina-ros#readme"
+}

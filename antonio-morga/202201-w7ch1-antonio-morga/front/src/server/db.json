@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    {
+      "title": "Create to-do list",
+      "isComplete": false,
+      "id": 1
+    }
+  ]
+}

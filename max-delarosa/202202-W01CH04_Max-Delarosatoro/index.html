@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lista de compras">
+    <title>Lista de compra</title>
+    <script src="https://kit.fontawesome.com/4093632a17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Lista de la compra</h1>
+
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__list-item">Principal</li>
+                <li class="header__list-item header__list-item--active">Lista</li>
+                <li class="header__list-item">Acerca de</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="summary">
+            <a class="summary__link" href="./add-items.html">
+                <i class="fas fa-plus-circle summary__add-icon"></i>
+            </a>
+            <span class="summary__bought-items">2/3 comprados</span>
+        </div>
+
+        <div class="details">
+            <div class="details__items-container">
+                <div class="details__item-container">
+                    <div class="details__name-container">
+                        <input id="pan" type="checkbox" class="details__item-checkbox">
+                        <label for="pan" class="details__item-name details__item-name--checked">Pan</label>
+                    </div>
+                    <div class="details__price-container">
+                        <span class="details__price">0.75€</span>
+                        <i class="fas fa-times details__delete-button"></i>
+                    </div>
+                </div>
+                <div class="details__item-container">
+                    <div class="details__name-container">
+                        <input id="azucar" type="checkbox" class="details__item-checkbox">
+                        <label for="azucar" class="details__item-name">Azúcar</label>
+                    </div>
+                    <div class="details__price-container">
+                        <span class="details__price"></span>
+                        <i class="fas fa-times details__delete-button"></i>
+                    </div>
+                </div>
+                <div class="details__item-container">
+                    <div class="details__name-container">
+                        <input id="leche" type="checkbox" class="details__item-checkbox">
+                        <label for="leche" class="details__item-name details__item-name--checked">Leche</label>
+                    </div>
+                    <div class="details__price-container">
+                        <span class="details__price">1.20€</span>
+                        <i class="fas fa-times details__delete-button"></i>
+                    </div>
+                </div>
+            </div>
+            <span class="details__total-amount">1.95€</span>
+        </div>
+    </main>
+</body>
+</html>

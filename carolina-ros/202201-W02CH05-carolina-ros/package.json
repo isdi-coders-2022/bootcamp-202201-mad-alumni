@@ -1,0 +1,38 @@
+{
+    "name": "202201-w02ch05-carolina-ros",
+    "version": "1.0.0",
+    "description": "Game of Life for ISDI Coders Bootcamp 2022. Weekend 2!!",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "jest",
+        "test:coverage": "jest --coverage",
+        "lint": "eslint",
+        "test:watch": "jest --watchAll",
+        "prepare": "husky install"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+        "eslint": "^8.8.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jest": "^26.0.0",
+        "husky": "^7.0.4",
+        "jest": "^27.4.7"
+    },
+    "prettier": {
+        "singleQuote": true
+    },
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    }
+}

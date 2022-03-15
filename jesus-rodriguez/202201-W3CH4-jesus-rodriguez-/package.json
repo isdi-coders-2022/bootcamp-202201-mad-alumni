@@ -1,0 +1,43 @@
+{
+  "name": "202201-W3CH4-jesus-rodriguez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "test:watch": "jest --watchAll",
+    "start:sass": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusrodriguezgonzalez/202201-W2CH5-jesus-rodriguez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusrodriguezgonzalez/202201-W2CH5-jesus-rodriguez/issues"
+  },
+  "homepage": "https://github.com/jesusrodriguezgonzalez/202201-W2CH5-jesus-rodriguez#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7",
+    "sass": "^1.49.7"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}

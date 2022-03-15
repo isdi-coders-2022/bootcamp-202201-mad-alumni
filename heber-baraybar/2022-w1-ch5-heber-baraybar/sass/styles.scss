@@ -1,0 +1,291 @@
+%common-list-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+%body-pictures {
+    width: 100%;
+    height: auto;
+}
+@import "footer";
+@import "header";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #15ffbc;
+}
+h1 {
+    display: none;
+}
+.video {
+    display: none;
+}
+.header__desktop {
+    display: none;
+}
+
+.header__menu {
+    margin: 10px;
+}
+.--header-menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu__home {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+.menu__home:hover {
+    color: pink;
+}
+
+.pictures__body {
+    @extend %body-pictures;
+    margin-top: 50px;
+}
+.text-and-pic {
+    text-align: center;
+}
+.--pictures__body--text {
+    text-align: center;
+    margin-top: 20px;
+    margin: 30px;
+}
+.pictures__main {
+    margin-bottom: 50px;
+}
+.virgulilla {
+    width: 50px;
+    margin: 30px;
+}
+.x {
+    margin-top: 10px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.footer__social-media img {
+    width: 2rem;
+    margin: 0.2rem;
+}
+.--footer-first-text {
+    color: #15ffbc;
+    padding-top: 20px;
+}
+.--nav__footer--menu {
+    color: white;
+}
+.nav__footer {
+    margin-top: 30px;
+    color: white;
+}
+.nav__footer li {
+    margin: 0.5rem;
+}
+.nav__footer a{
+    text-decoration: none;
+    color: white;
+}
+.--home-pink a{
+    text-decoration: line-through;
+    color: pink;
+}
+.footer__text {
+    margin-top: 1rem;
+    h2 {
+        color: white;
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+    p {
+        color: #15ffbc;
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+}
+.--desk-menu-hover:hover {
+    color: pink;
+}
+.cross-text-title {
+    text-decoration: line-through pink;
+}
+
+
+@media (min-width: 600px) {
+   
+    .header__menu {
+        display: none;
+    }
+    .header__desk {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div {
+            display: flex;
+            justify-content: space-between;
+            li {
+                margin: 20px;
+            }
+        }
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    .--pictures__body-pink-car {
+        display: none;
+    }
+    .video {
+        display: block;
+        width: 100%;
+    }
+    .--pictures__body--text {
+        width: 20%;
+        margin: 1.5rem auto;
+    }
+    .pictures__package {
+        display: flex;
+        justify-content: center;
+    }
+    .nav__footer {
+        display: none;
+    }
+    .package__footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer__social-media {
+        img:hover {
+            background-color: pink;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+    .cross__world {
+        text-decoration: line-through;
+    }
+    
+}
+
+//**************** From here works.html**************************//
+
+.header__menu-desktop {
+    display: none;
+}
+.grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 70vw;        
+    }
+    @for $i from 1 through 30 {
+        .image-grid#{$i} {
+            background-image: url("../jesus/media#{$i}.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            span{
+                display: none ;
+            }
+        }
+    }
+ 
+
+@media (min-width: 600px) {
+    .header__menu-desktop {
+        display: flex;
+    }
+    .pictures__mobile {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 33%;
+        }
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 20vw;
+    
+    }
+    @for $i from 1 through 30 {
+        .image-grid#{$i} {
+            background-image: url("../jesus/media#{$i}.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .--hover-img {
+                display: none;
+            }
+        }
+    }
+    .--hover-img {
+        text-align: center;
+    }
+    .--hover-grid:hover {
+        filter: opacity(50%);
+        transform: scale(1.1);
+        transition: 0.7s;
+        
+        .--hover-img {
+            display: block;
+        }
+    }
+}
+// *******************From here about html*********************//
+.text {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    h2 {
+        margin-bottom: 1rem;
+    }
+    p {
+        margin-bottom: 3rem;
+    }
+}
+.picture__about {
+    display: none;
+}
+@media (min-width: 600px) {
+    .header__desktop {
+        display: block;
+        height: 200px;
+    }
+    .picture__about {
+        display: block;
+        /* img{
+        width: 100%;
+        height: 200px;
+        } */
+        background-image: url("../images/about.jpg");
+        height: 300px;
+    }
+    .text-one {
+        margin-top: 50px;
+        word-spacing: 0.5rem;
+    }
+    .text--two {
+        display: flex;
+        justify-content: center;
+        div {
+            margin: 20px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "challenge4",
+  "version": "1.0.0",
+  "description": "Challenge 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inigopanos/W1CH4-inigo-panos.git"
+  },
+  "keywords": [
+    "sass",
+    "html",
+    "css"
+  ],
+  "author": "Íñigo Paños",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inigopanos/W1CH4-inigo-panos/issues"
+  },
+  "homepage": "https://github.com/inigopanos/W1CH4-inigo-panos#readme",
+  "devDependencies": {
+    "sass": "^1.49.0"
+  }
+}

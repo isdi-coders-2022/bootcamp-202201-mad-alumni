@@ -1,0 +1,43 @@
+@use 'variables';
+@use 'normalize';
+
+@use 'header';
+
+.hero {
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    &__input-container {
+        display: flex;
+        align-items: center;
+        column-gap: 0.5rem;
+    }
+
+    &__input-label {
+        color: variables.$primary-color;
+        font-weight: bold;
+    }
+
+    &__input {
+        padding: 0.3rem 1rem;
+    }
+
+    &__button {
+        width: fit-content;
+        padding: 0.8rem 1rem;
+        background-color: variables.$secondary-color;
+        border-radius: 0.4rem;
+        color: variables.$primary-color;
+        border: none;
+        margin-bottom: 2rem;
+        cursor: pointer;
+    }
+}

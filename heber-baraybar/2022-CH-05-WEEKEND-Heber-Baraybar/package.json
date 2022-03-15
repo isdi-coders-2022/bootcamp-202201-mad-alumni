@@ -1,0 +1,43 @@
+{
+  "name": "ch-05-weekend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "test:watch": "jest --watchAll",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heber2525/2022-CH-05-WEEKEND-Heber-Baraybar.git"
+  },
+  "author": "",
+  "prettier": {
+    "singleQuote": true
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heber2525/2022-CH-05-WEEKEND-Heber-Baraybar/issues"
+  },
+  "homepage": "https://github.com/heber2525/2022-CH-05-WEEKEND-Heber-Baraybar#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}

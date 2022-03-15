@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$headerblue: #5d83d2;
+$headerorange: #da6309;
+$listbuyorange: #fb861c;
+$hoverlist: #a8641f;
+
+%sidespadding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+%header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+%list {
+    list-style: none;
+}
+
+%headermenu {
+    @extend %header;
+    @extend %list;
+    gap: 30px;
+    padding-top: 15px;
+}
+
+.header {
+    @extend %header;
+    background-color: $headerblue;
+    padding-right: 50px;
+}
+
+.header_title {
+    padding-left: 50px;
+}
+
+.main-list__buy {
+    @extend %list;
+    @extend %sidespadding;
+    padding-top: 20px;
+    &--item {
+        &:hover {
+            background-color: #a8641f;
+        }
+    }
+}
+
+.menu {
+    @extend %headermenu;
+
+    &_item {
+        &:hover {
+            font-weight: 800;
+        }
+    }
+}
+
+.main_header {
+    @extend %header;
+    background-color: $headerorange;
+    height: 70px;
+    align-items: center;
+    @extend %sidespadding;
+}
+
+.div-list-buy {
+    @extend %header;
+}
+
+.main {
+    background-color: $listbuyorange;
+    height: calc(100vh - 100px);
+}
+.total-price-content {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+}
+
+.total-price-content__price {
+    margin-top: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 47px;
+    border-top: 1px solid rgb(255, 255, 255);
+    position: absolute;
+}
+
+.list-buy_prodcut--tachado {
+    text-decoration: line-through;
+}
+
+.main__purchased {
+    font-size: 25px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    &__input {
+        margin-top: 10px;
+        border-style: none;
+        height: 35px;
+    }
+}
+
+.button-modifi {
+    background-color: steelblue;
+    margin-top: 30px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.tiitle-form {
+    margin-top: 30px;
+    padding-left: 50px;
+}

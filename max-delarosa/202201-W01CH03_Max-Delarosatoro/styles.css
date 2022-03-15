@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+    transition: 0.3s ease all;
+}
+
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+.header {
+    padding: 10px;
+    border-bottom: 2px solid #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header__logo {
+    height: 30px;
+    cursor: pointer;
+}
+
+.hamburger-button {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hamburger-button__line {
+    height: 2px;
+    width: 100%;
+    background-color: #525252;
+    display: block;
+}
+
+.nav, .nav__inner-list {
+    display: none;
+}
+
+.hamburger-button__line:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main__top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title {
+    color: #ED6336;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+.main__subtitle {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: #ED6336;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    border-radius: 2rem;
+    border-top-left-radius: 0;
+    margin-bottom: 2rem;
+    width: fit-content;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.button:hover{
+    background-color: white;
+    border: 2px solid #ED6336;
+    color: #ED6336;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.animal-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 1rem;
+    background-color: rgba(0,0,0,0.30);
+    background-blend-mode: color;
+    cursor: pointer;
+}
+
+.animal-img:nth-child(1) {
+    background-image: url(./images/dog-1.jpeg);
+}
+
+.animal-img:nth-child(2) {
+    background-image: url(./images/cat-1.jpeg);
+}
+
+.animal-img:nth-child(3) {
+    background-image: url(./images/dog-2.jpeg);
+}
+
+.animal-img__title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s ease all;
+}
+
+.animal-img__subtitle, .animal-img__title {
+    color: white;
+}
+
+.animal-img__subtitle {
+    bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    /* .header {
+    padding: 10px;
+    border-bottom: 2px solid #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    } */
+    .header {
+        height: 80px;
+        padding: 2rem;
+    }
+
+    .header__logo {
+        width: 50px;
+        height: auto;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__list {
+        list-style: none;
+        display: flex;
+        column-gap: 2rem;
+    }
+
+    .nav__link {
+        cursor: pointer;
+    }
+    
+    .nav__link span {
+        display: block;
+        border-bottom: 2px solid rgba(0,0,0,0);
+        margin-bottom: -1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .nav__link:hover span {
+        color:#ED6336;
+        border-bottom: 2px solid #ED6336;
+    }
+
+    .nav__link--spreadable {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__link--spreadable span::after {
+        content: "▼";
+        margin-left: 0.2rem;
+        font-size: 0.5rem;
+    }
+
+    .dropdown-container {
+        position: relative;
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 40px;
+    }
+
+    .nav__inner-list {
+        display: block;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dropdown {
+        display: none;
+    }
+
+    .dropdown-container:hover .dropdown {
+        display: block;
+    }
+
+    .nav__inner-list-item {
+        width: 220px;
+        display: block;
+        background-color: white;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .nav__inner-list-item:hover {
+        color: #ED6336;
+    }
+
+    .button {
+        padding: 1rem 1.8rem 1rem 1.8rem;
+    }
+
+    .button--buy {
+        margin: 0;
+        margin-left: 2rem;
+        border: 2px solid #ED6336;
+        background-color: white;
+        color: black;
+        font-size: 1.2rem;
+        padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .button--buy:hover {
+        color: white;
+        background-color: #ED6336;
+    }
+
+    .main {
+        padding: 4rem;
+    }
+    
+    .main__top-container {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+    }
+
+    .main__title-container {
+        align-items: flex-start;
+    }
+
+    .main__title {
+        font-size: 1rem;
+    }
+    
+    .main__subtitle {
+        font-size: 3rem;
+    }
+
+    .image-gallery {
+        flex-direction: row;
+        column-gap: 1rem;
+        width: 100%;
+        height: 300px;
+    }
+
+    .animal-img {
+        background-color: rgba(0,0,0,0);
+        width: 100%;
+        height: 100%;
+        transition: 0.5s ease all;
+        justify-content: center;
+    }
+
+    .animal-img:hover {
+        background-color: rgba(0,0,0,0.30);
+        background-blend-mode: color;
+        transition: 0.5s ease all;
+    }
+
+    .animal-img__title-container {
+        opacity: 0;
+        row-gap: 2rem;
+    }
+
+    .animal-img:hover .animal-img__title-container {
+        opacity: 1;
+        transition: 0.5s ease all;
+    }
+
+    .animal-img__title {
+        font-size: 1.7rem;
+    }
+    
+    .animal-img__subtitle {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main_header, .main-list__buy {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.div-list-buy, .main_header, .header, .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.main-list__buy, .menu {
+  list-style: none;
+}
+
+.menu {
+  gap: 30px;
+  padding-top: 15px;
+}
+
+.header {
+  background-color: #5d83d2;
+  padding-right: 50px;
+}
+
+.header_title {
+  padding-left: 50px;
+}
+
+.main-list__buy {
+  padding-top: 20px;
+}
+.main-list__buy--item:hover {
+  background-color: #a8641f;
+}
+
+.menu_item:hover {
+  font-weight: 800;
+}
+
+.main_header {
+  background-color: #da6309;
+  height: 70px;
+  align-items: center;
+}
+
+.main {
+  background-color: #fb861c;
+  height: calc(100vh - 100px);
+}
+
+.total-price-content {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 50px;
+}
+
+.total-price-content__price {
+  margin-top: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 47px;
+  border-top: 1px solid white;
+  position: absolute;
+}
+
+.list-buy_prodcut--tachado {
+  text-decoration: line-through;
+}
+
+.main__purchased {
+  font-size: 25px;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.main-form__input {
+  margin-top: 10px;
+  border-style: none;
+  height: 35px;
+}
+
+.button-modifi {
+  background-color: steelblue;
+  margin-top: 30px;
+  color: white;
+  width: 120px;
+  height: 50px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.tiitle-form {
+  margin-top: 30px;
+  padding-left: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,88 @@
+{
+  "pokemon": [
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/18/",
+      "id": 1
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/15/",
+      "id": 2
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/25/",
+      "id": 3
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/350/",
+      "id": 4
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/142/",
+      "id": 5
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/146/",
+      "id": 6
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/151/",
+      "id": 7
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/150/",
+      "id": 8
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/212/",
+      "id": 9
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/245/",
+      "id": 10
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/249/",
+      "id": 11
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/384/",
+      "id": 12
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/386/",
+      "id": 13
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/889/",
+      "id": 14
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/10001/",
+      "id": 15
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/10002/",
+      "id": 16
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/10003/",
+      "id": 17
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/10035/",
+      "id": 18
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/10043/",
+      "id": 19
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/10044/",
+      "id": 20
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon/10079/",
+      "id": 21
+    }
+  ]
+}

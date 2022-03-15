@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="the game of life is a cellular automaton devised by the British mathematician John Horton Conway in 1970.[1] It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine."
+        />
+        <title>Game of life</title>
+
+        <script
+            src="https://kit.fontawesome.com/11c3f23555.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <script type="module" src="./functions/class-grid.js"></script>
+        <link ty rel="stylesheet" href="./css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="page-title">John Conway's Game Of Life</h1>
+        </header>
+        <main class="main">
+            <div class="grid-box"></div>
+            <div class="controls-right">
+                <label class="controls-right__label" for="speed">Speed</label>
+                <input
+                    class="controls-right__speed"
+                    type="range"
+                    min="0"
+                    value="300"
+                    step="50"
+                    max="450"
+                    name=""
+                    id="speed"
+                />
+                <button class="controls-right__start-stop">
+                    <i class="fas fa-play"></i>
+                    <i class="fas fa-stop hidden"></i>
+                </button>
+                <button class="controls-left__reset">
+                    <i class="fas fa-redo-alt"></i>
+                </button>
+                <button class="controls-left__randomize">
+                    <i class="fas fa-random"></i>
+                </button>
+            </div>
+            <div class="footer"></div>
+        </main>
+        <div class="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <script type="module" src="./game-of-life.js"></script>
+    </body>
+</html>

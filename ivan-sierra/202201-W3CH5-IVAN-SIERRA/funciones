@@ -1,0 +1,41 @@
+/*
+        data.forEach((item) => {
+            template += `
+                <a><li class="pokemon">${item.forms.name}</li></a>
+            `;
+        });
+        document.querySelector('.pokemonList').innerHTML = template;
+        */
+    
+    /*
+    function numberPokemon(data){
+        let index = 0;
+        let template = '';
+        /*
+        data.forEach((item) => {
+            template += `
+                <p class="pokemon">${index}${item.pokemonTotales}</li>
+
+            `;
+        });
+        document.querySelector('.pokemonList').innerHTML = template;*/
+
+        /*
+        let template = '';
+        data.forEach((itemPoke) => {
+            template += `
+                <a><li class="pokemon">${itemPoke.forms.name}</li></a>
+            `;
+        });
+        document.querySelector('.pokemonList').innerHTML = template;
+    
+
+    function render() {
+        showData(
+            data.filter((item) => {
+                return item.watched;
+            }),
+            '.pokemonList'
+        );
+    }*/
+    

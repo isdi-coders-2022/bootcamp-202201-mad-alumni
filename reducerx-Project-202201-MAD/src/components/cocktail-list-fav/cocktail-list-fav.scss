@@ -1,0 +1,95 @@
+.favorites-wrapper {
+    min-height: calc(100vh - 206px);
+
+    &__main {
+        // padding-top: 0;
+
+        .favorites-title {
+            color: white;
+            font-family: 'Overpass', sans-serif;
+        }
+
+        .cocktail-list-fav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+
+            &__name {
+                overflow: hidden;
+                margin-bottom: 20px;
+
+                &:hover {
+                    img {
+                        cursor: pointer;
+                        transform: scale(0.9);
+                        border-radius: 50%;
+                        transition: all ease-in-out 0.3s;
+                    }
+
+                    p {
+                        transition: all ease-in-out 0.3s;
+                        color: #f45a7f;
+                    }
+                }
+
+                p {
+                    color: white;
+                    font-size: 20px;
+                    margin-top: 8px;
+                    max-width: 200px;
+                }
+
+                img {
+                    height: 200px;
+                    width: auto;
+                    border-radius: 50px;
+                    transition: all ease-in-out 0.3s;
+                }
+            }
+        }
+    }
+
+    .cocktails-navigation-fav {
+        button {
+            all: unset;
+            padding: 3px 24px 0px;
+            margin: 0px 10px;
+            border-radius: 20px;
+            line-height: 40px;
+            transition: all ease-in-out 0.2s;
+            cursor: pointer;
+
+            // 1-3, 2-2, 2-1
+            background-color: #f45a7f;
+            color: white;
+
+            // background-color: transparent;
+            // border: 2px solid #f45a7f;
+            // color: #f45a7f;
+
+            &:hover {
+                // background-color: #f45a7f;
+                // color: white;
+
+                // border: 2px solid white;
+                // color: white;
+
+                background-color: white;
+                color: #f45a7f;
+                border-color: white;
+
+                transition: all ease-in-out 0.2s;
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .favorites-wrapper {
+        .favorites-title {
+            margin-top: 40px;
+        }
+    }
+}

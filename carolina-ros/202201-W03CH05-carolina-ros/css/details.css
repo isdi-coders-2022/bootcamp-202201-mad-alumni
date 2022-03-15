@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background: #f0d182;
+}
+
+h1 {
+    display: none;
+}
+.pokemon-logo {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+img {
+    height: 8rem;
+}
+.pokemon__navigation {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20rem;
+    padding: 30rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.pokemon__navigation-home,
+.pokemon__navigation-favourites {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4169e1;
+    border: 1px solid #d3ab3d;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pokemon__navigation-home:hover,
+.pokemon__navigation-favourites:hover {
+    background-color: #dfc21c;
+    color: #1805c9;
+}
+.pokemon__navigation-home:active,
+.pokemon__navigation-favourites:active {
+    background-color: #eecb73;
+    box-shadow: 0 2px rgb(83, 83, 83);
+    transform: translateY(4px);
+}
+
+h2 {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1805c9;
+}
+
+.pokemon-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 0.2rem;
+}
+.pokemon-description {
+    text-align: center;
+    color: #4169e1;
+    font-size: larger;
+    font-weight: bolder;
+    border: 1px solid #1805c9;
+}
+.characteristic {
+    margin: 2rem;
+}
+
+.button-add {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: #4169e1;
+    cursor: pointer;
+    padding-top: 2rem;
+}
+.add-favourite {
+    border: 2px solid #dfc21c;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: #4169e1;
+}
+.add-favourite:hover {
+    cursor: pointer;
+    color: #4169e1;
+    background-color: #dfc21c;
+    color: #1805c9;
+}
+.add-favourite:active {
+    background-color: #eecb73;
+    box-shadow: 0 2px rgb(83, 83, 83);
+    transform: translateY(4px);
+}

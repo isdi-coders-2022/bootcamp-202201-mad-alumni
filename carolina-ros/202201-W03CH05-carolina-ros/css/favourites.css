@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background: #f0d182;
+}
+
+h1 {
+    display: none;
+}
+.pokemon-logo {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+img {
+    height: 8rem;
+}
+.pokemon__navigation {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20rem;
+    padding: 30rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.pokemon__navigation-home,
+.pokemon__navigation-favourites {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4169e1;
+    border: 1px solid #d3ab3d;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pokemon__navigation-home:hover,
+.pokemon__navigation-favourites:hover {
+    background-color: #dfc21c;
+    color: #1805c9;
+}
+.pokemon__navigation-home:active,
+.pokemon__navigation-favourites:active {
+    background-color: #eecb73;
+    box-shadow: 0 2px rgb(83, 83, 83);
+    transform: translateY(4px);
+}
+.pokemon-delete {
+    text-align: center;
+    padding: 3rem;
+}
+.pokemon-delete__name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #1805c9;
+}
+.delete-favourite {
+    border: 2px solid #dfc21c;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: #4169e1;
+}
+.delete-favourite:hover {
+    cursor: pointer;
+    background-color: #dfc21c;
+    color: #1805c9;
+}
+.delete-favourite:active {
+    background-color: #eecb73;
+    box-shadow: 0 2px rgb(83, 83, 83);
+    transform: translateY(4px);
+}

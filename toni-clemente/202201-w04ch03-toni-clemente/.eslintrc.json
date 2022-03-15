@@ -1,0 +1,33 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "airbnb",
+    "react-app",
+    "react-app/jest",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jest"],
+  "rules": {
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "no-console": "off"
+  }
+}

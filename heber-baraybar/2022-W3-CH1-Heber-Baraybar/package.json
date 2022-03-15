@@ -1,0 +1,30 @@
+{
+  "name": "ch1-w3",
+  "version": "1.0.0",
+  "description": "GoT DOM\r Tendrás que programar esta interfaz de usuario para que refleje el modelo de datos que diseñaste en el anterior ejercicio.",
+  "main": "advisor.js",
+  "type": "module",
+  "prettier": {
+    "singleQuote": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heber2525/2022-W3-CH1-Heber-Baraybar.git"
+  },
+  "author": "Heber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heber2525/2022-W3-CH1-Heber-Baraybar/issues"
+  },
+  "homepage": "https://github.com/heber2525/2022-W3-CH1-Heber-Baraybar#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}

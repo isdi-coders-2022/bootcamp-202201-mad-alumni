@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasapalabra Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="app">
+        <div class="left-container">
+            <div class="pasapalabra-circle">
+                <div class="letter" id="a">A</div>
+                <div class="letter" id="b">B</div>
+                <div class="letter" id="c">C</div>
+                <div class="letter" id="d">D</div>
+                <div class="letter" id="e">E</div>
+                <div class="letter" id="f">F</div>
+                <div class="letter" id="g">G</div>
+                <div class="letter" id="h">H</div>
+                <div class="letter" id="i">I</div>
+                <div class="letter" id="j">J</div>
+                <div class="letter" id="k">K</div>
+                <div class="letter" id="l">L</div>
+                <div class="letter" id="m">M</div>
+                <div class="letter" id="n">N</div>
+                <div class="letter" id="ñ">Ñ</div>
+                <div class="letter" id="o">O</div>
+                <div class="letter" id="p">P</div>
+                <div class="letter" id="q">Q</div>
+                <div class="letter" id="r">R</div>
+                <div class="letter" id="s">S</div>
+                <div class="letter" id="t">T</div>
+                <div class="letter" id="u">U</div>
+                <div class="letter" id="v">V</div>
+                <div class="letter" id="w">W</div>
+                <div class="letter" id="x">X</div>
+                <div class="letter" id="y">Y</div>
+                <div class="letter" id="z">Z</div>
+                <div class="center-letter hide"></div>
+            </div>
+            <span class="timer">150</span>
+        </div>
+        <div class="right-container">
+            <p class="welcome-title">Bienvenidos al juego de Pasapalabra de ISDI Coders!</p>
+            <p class="game-description">Basado en el exitoso concurso de televisión: Pasapalabra de Telecinco, las normas son muy sencillas:</p>
+            <p class="game-description">Se mostrarán definiciones por pantalla y el usuario deberá responder con la palabra a la que corresponden. El usuario tiene la opción de decir Pasapalabra y dejar esa definición para más adelante.</p>
+            <p class="game-description">El programa es sensible a la acentuación, así que debe introducir la palabra sin tilde. Es posible utilizar la tecla ENTER para enviar la palabra y la tecla SPACE para hacer pasapalabra.</p>
+            <button class="play-button">▶ JUGAR</button>
+            
+            <p class="question hide"></p>
+            <input class="game-input hide" />
+
+            <p class="final-score hide"></p>
+            <button class="replay-button play-button hide">Jugar</button>
+        </div>
+    </main>
+
+    <script src="circle.js"></script>
+    <script type="module" src="questions.js"></script>
+    <script type="module" src="game2.js"></script>
+</body>
+</html>

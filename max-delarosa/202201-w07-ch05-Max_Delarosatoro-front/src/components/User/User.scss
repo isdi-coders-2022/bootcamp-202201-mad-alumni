@@ -1,0 +1,41 @@
+@use '../../sass/variables';
+
+.users {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 1rem;
+
+    &__img-container {
+        display: flex;
+        align-items: center;
+        width: 50px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__name {
+        text-decoration: none;
+        color: variables.$primary-color;
+        transition: 0.3s ease all;
+
+        &:hover {
+            color: variables.$secondary-color;
+            transition: 0.3s ease all;
+        }
+    }
+
+    &__action-container {
+        display: flex;
+        column-gap: 1rem;
+    }
+}

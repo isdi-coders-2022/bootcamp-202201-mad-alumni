@@ -1,0 +1,978 @@
+.pictures__body {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #15ffbc;
+}
+
+h1 {
+  display: none;
+}
+
+.video {
+  display: none;
+}
+
+.header__desktop {
+  display: none;
+}
+
+.header__menu {
+  margin: 10px;
+}
+
+.--header-menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu__home {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.menu__home:hover {
+  color: pink;
+}
+
+.pictures__body {
+  margin-top: 50px;
+}
+
+.text-and-pic {
+  text-align: center;
+}
+
+.--pictures__body--text {
+  text-align: center;
+  margin-top: 20px;
+  margin: 30px;
+}
+
+.pictures__main {
+  margin-bottom: 50px;
+}
+
+.virgulilla {
+  width: 50px;
+  margin: 30px;
+}
+
+.x {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.footer__social-media img {
+  width: 2rem;
+  margin: 0.2rem;
+}
+
+.--footer-first-text {
+  color: #15ffbc;
+  padding-top: 20px;
+}
+
+.--nav__footer--menu {
+  color: white;
+}
+
+.nav__footer {
+  margin-top: 30px;
+  color: white;
+}
+
+.nav__footer li {
+  margin: 0.5rem;
+}
+
+.nav__footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.--home-pink a {
+  text-decoration: line-through;
+  color: pink;
+}
+
+.footer__text {
+  margin-top: 1rem;
+}
+.footer__text h2 {
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px;
+}
+.footer__text p {
+  color: #15ffbc;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.--desk-menu-hover:hover {
+  color: pink;
+}
+
+.cross-text-title {
+  text-decoration: line-through pink;
+}
+
+@media (min-width: 600px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__desk div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__desk div li {
+    margin: 20px;
+  }
+  .header__desk li {
+    list-style: none;
+  }
+  .header__desk li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .--pictures__body-pink-car {
+    display: none;
+  }
+
+  .video {
+    display: block;
+    width: 100%;
+  }
+
+  .--pictures__body--text {
+    width: 20%;
+    margin: 1.5rem auto;
+  }
+
+  .pictures__package {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav__footer {
+    display: none;
+  }
+
+  .package__footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer__social-media img:hover {
+    background-color: pink;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .cross__world {
+    text-decoration: line-through;
+  }
+}
+.header__menu-desktop {
+  display: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 70vw;
+}
+
+.image-grid1 {
+  background-image: url("../jesus/media1.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid1 span {
+  display: none;
+}
+
+.image-grid2 {
+  background-image: url("../jesus/media2.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid2 span {
+  display: none;
+}
+
+.image-grid3 {
+  background-image: url("../jesus/media3.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid3 span {
+  display: none;
+}
+
+.image-grid4 {
+  background-image: url("../jesus/media4.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid4 span {
+  display: none;
+}
+
+.image-grid5 {
+  background-image: url("../jesus/media5.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid5 span {
+  display: none;
+}
+
+.image-grid6 {
+  background-image: url("../jesus/media6.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid6 span {
+  display: none;
+}
+
+.image-grid7 {
+  background-image: url("../jesus/media7.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid7 span {
+  display: none;
+}
+
+.image-grid8 {
+  background-image: url("../jesus/media8.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid8 span {
+  display: none;
+}
+
+.image-grid9 {
+  background-image: url("../jesus/media9.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid9 span {
+  display: none;
+}
+
+.image-grid10 {
+  background-image: url("../jesus/media10.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid10 span {
+  display: none;
+}
+
+.image-grid11 {
+  background-image: url("../jesus/media11.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid11 span {
+  display: none;
+}
+
+.image-grid12 {
+  background-image: url("../jesus/media12.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid12 span {
+  display: none;
+}
+
+.image-grid13 {
+  background-image: url("../jesus/media13.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid13 span {
+  display: none;
+}
+
+.image-grid14 {
+  background-image: url("../jesus/media14.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid14 span {
+  display: none;
+}
+
+.image-grid15 {
+  background-image: url("../jesus/media15.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid15 span {
+  display: none;
+}
+
+.image-grid16 {
+  background-image: url("../jesus/media16.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid16 span {
+  display: none;
+}
+
+.image-grid17 {
+  background-image: url("../jesus/media17.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid17 span {
+  display: none;
+}
+
+.image-grid18 {
+  background-image: url("../jesus/media18.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid18 span {
+  display: none;
+}
+
+.image-grid19 {
+  background-image: url("../jesus/media19.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid19 span {
+  display: none;
+}
+
+.image-grid20 {
+  background-image: url("../jesus/media20.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid20 span {
+  display: none;
+}
+
+.image-grid21 {
+  background-image: url("../jesus/media21.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid21 span {
+  display: none;
+}
+
+.image-grid22 {
+  background-image: url("../jesus/media22.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid22 span {
+  display: none;
+}
+
+.image-grid23 {
+  background-image: url("../jesus/media23.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid23 span {
+  display: none;
+}
+
+.image-grid24 {
+  background-image: url("../jesus/media24.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid24 span {
+  display: none;
+}
+
+.image-grid25 {
+  background-image: url("../jesus/media25.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid25 span {
+  display: none;
+}
+
+.image-grid26 {
+  background-image: url("../jesus/media26.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid26 span {
+  display: none;
+}
+
+.image-grid27 {
+  background-image: url("../jesus/media27.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid27 span {
+  display: none;
+}
+
+.image-grid28 {
+  background-image: url("../jesus/media28.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid28 span {
+  display: none;
+}
+
+.image-grid29 {
+  background-image: url("../jesus/media29.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid29 span {
+  display: none;
+}
+
+.image-grid30 {
+  background-image: url("../jesus/media30.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-grid30 span {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .header__menu-desktop {
+    display: flex;
+  }
+
+  .pictures__mobile {
+    display: flex;
+    align-items: center;
+  }
+  .pictures__mobile img {
+    width: 33%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 20vw;
+  }
+
+  .image-grid1 {
+    background-image: url("../jesus/media1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid1 .--hover-img {
+    display: none;
+  }
+
+  .image-grid2 {
+    background-image: url("../jesus/media2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid2 .--hover-img {
+    display: none;
+  }
+
+  .image-grid3 {
+    background-image: url("../jesus/media3.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid3 .--hover-img {
+    display: none;
+  }
+
+  .image-grid4 {
+    background-image: url("../jesus/media4.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid4 .--hover-img {
+    display: none;
+  }
+
+  .image-grid5 {
+    background-image: url("../jesus/media5.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid5 .--hover-img {
+    display: none;
+  }
+
+  .image-grid6 {
+    background-image: url("../jesus/media6.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid6 .--hover-img {
+    display: none;
+  }
+
+  .image-grid7 {
+    background-image: url("../jesus/media7.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid7 .--hover-img {
+    display: none;
+  }
+
+  .image-grid8 {
+    background-image: url("../jesus/media8.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid8 .--hover-img {
+    display: none;
+  }
+
+  .image-grid9 {
+    background-image: url("../jesus/media9.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid9 .--hover-img {
+    display: none;
+  }
+
+  .image-grid10 {
+    background-image: url("../jesus/media10.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid10 .--hover-img {
+    display: none;
+  }
+
+  .image-grid11 {
+    background-image: url("../jesus/media11.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid11 .--hover-img {
+    display: none;
+  }
+
+  .image-grid12 {
+    background-image: url("../jesus/media12.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid12 .--hover-img {
+    display: none;
+  }
+
+  .image-grid13 {
+    background-image: url("../jesus/media13.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid13 .--hover-img {
+    display: none;
+  }
+
+  .image-grid14 {
+    background-image: url("../jesus/media14.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid14 .--hover-img {
+    display: none;
+  }
+
+  .image-grid15 {
+    background-image: url("../jesus/media15.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid15 .--hover-img {
+    display: none;
+  }
+
+  .image-grid16 {
+    background-image: url("../jesus/media16.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid16 .--hover-img {
+    display: none;
+  }
+
+  .image-grid17 {
+    background-image: url("../jesus/media17.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid17 .--hover-img {
+    display: none;
+  }
+
+  .image-grid18 {
+    background-image: url("../jesus/media18.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid18 .--hover-img {
+    display: none;
+  }
+
+  .image-grid19 {
+    background-image: url("../jesus/media19.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid19 .--hover-img {
+    display: none;
+  }
+
+  .image-grid20 {
+    background-image: url("../jesus/media20.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid20 .--hover-img {
+    display: none;
+  }
+
+  .image-grid21 {
+    background-image: url("../jesus/media21.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid21 .--hover-img {
+    display: none;
+  }
+
+  .image-grid22 {
+    background-image: url("../jesus/media22.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid22 .--hover-img {
+    display: none;
+  }
+
+  .image-grid23 {
+    background-image: url("../jesus/media23.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid23 .--hover-img {
+    display: none;
+  }
+
+  .image-grid24 {
+    background-image: url("../jesus/media24.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid24 .--hover-img {
+    display: none;
+  }
+
+  .image-grid25 {
+    background-image: url("../jesus/media25.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid25 .--hover-img {
+    display: none;
+  }
+
+  .image-grid26 {
+    background-image: url("../jesus/media26.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid26 .--hover-img {
+    display: none;
+  }
+
+  .image-grid27 {
+    background-image: url("../jesus/media27.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid27 .--hover-img {
+    display: none;
+  }
+
+  .image-grid28 {
+    background-image: url("../jesus/media28.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid28 .--hover-img {
+    display: none;
+  }
+
+  .image-grid29 {
+    background-image: url("../jesus/media29.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid29 .--hover-img {
+    display: none;
+  }
+
+  .image-grid30 {
+    background-image: url("../jesus/media30.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid30 .--hover-img {
+    display: none;
+  }
+
+  .--hover-img {
+    text-align: center;
+  }
+
+  .--hover-grid:hover {
+    filter: opacity(50%);
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
+  .--hover-grid:hover .--hover-img {
+    display: block;
+  }
+}
+.text {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+.text h2 {
+  margin-bottom: 1rem;
+}
+.text p {
+  margin-bottom: 3rem;
+}
+
+.picture__about {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .header__desktop {
+    display: block;
+    height: 200px;
+  }
+
+  .picture__about {
+    display: block;
+    /* img{
+    width: 100%;
+    height: 200px;
+    } */
+    background-image: url("../images/about.jpg");
+    height: 300px;
+  }
+
+  .text-one {
+    margin-top: 50px;
+    word-spacing: 0.5rem;
+  }
+
+  .text--two {
+    display: flex;
+    justify-content: center;
+  }
+  .text--two div {
+    margin: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

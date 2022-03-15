@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    column-gap: 2rem;
+
+    &__link {
+        text-decoration: none;
+        color: black;
+        display: block;
+        border: 1px solid black;
+        padding: 0.3rem 0.5rem;
+        background-color: white;
+        transition: 0.3s ease all;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            transition: 0.3s ease all;
+        }
+    }
+}

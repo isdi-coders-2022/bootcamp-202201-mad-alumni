@@ -1,0 +1,48 @@
+{
+    "name": "felipelucadetena-202202-w2chw2-felipe-luca-de-tena",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint",
+        "test:watch": "jest --watchAll",
+        "test:coverage": "jest --coverage",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/felipeLucaDeTena/felipeLucaDeTena-202202-W2CHW2-felipe-luca-de-tena.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/felipeLucaDeTena/felipeLucaDeTena-202202-W2CHW2-felipe-luca-de-tena/issues"
+    },
+    "homepage": "https://github.com/felipeLucaDeTena/felipeLucaDeTena-202202-W2CHW2-felipe-luca-de-tena#readme",
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+        "eslint": "^8.7.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.25.4",
+        "husky": "^7.0.4",
+        "jest": "^27.4.7"
+    },
+    "dependencies": {
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-jest": "^26.0.0"
+    },
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    },
+    "prettier": {
+        "singleQuote": true
+    }
+}

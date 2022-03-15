@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap%22");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+.header-nav__list > li {
+  display: flex;
+  display: inline;
+  float: left;
+  justify-content: left;
+  padding-left: 3px;
+  padding-right: 3px;
+  height: 37px;
+  gap: 50px;
+}
+
+.header-nav__list li a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
+}
+
+.header-nav__list li ul {
+  display: none;
+  position: relative;
+  float: left;
+  min-width: 140px;
+}
+.header-nav__list-demo:hover .header-nav__list {
+  display: flex;
+}
+
+.header-nav__list li ul li {
+  position: relative;
+}
+
+.header-nav__list ul {
+  list-style: none;
+}
+
+.header-nav__list-home {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header-nav__list-home:hover {
+  color: #dd6b45;
+}
+
+.header-nav__list-demo:hover {
+  color: #dd6b45;
+}
+
+.header-nav__list-blocks:hover {
+  color: #dd6b45;
+}
+
+.header-nav__button {
+  padding: 15px 32px;
+  font-size: 20px;
+  background-color: white;
+  border-color: #dd6b45;
+  color: black;
+  border-radius: 0px 20px 20px;
+}
+
+.header-nav__button:hover {
+  background-color: #dd6b45;
+}
+
+.contents h1 {
+  font-size: 40px;
+  color: #dd6b45;
+}
+
+.contents h2 {
+  font-size: 60px;
+}
+
+.contents .contents__button {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 20px 42px;
+  font-size: 30px;
+  background-color: #dd6b45;
+  color: white;
+  border-color: none;
+  border-radius: 0px 20px 20px;
+}
+
+.contents .contents__button:hover {
+  background-color: white;
+  color: #dd6b45;
+  border-color: #dd6b45;
+}
+
+.images-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.images-all__first-image,
+.images-all__second-image,
+.images-all__third-image {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 70px;
+  max-width: 450px;
+  max-height: 450px;
+}

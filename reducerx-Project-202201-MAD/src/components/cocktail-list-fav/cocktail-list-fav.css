@@ -1,0 +1,86 @@
+.favorites-wrapper {
+  min-height: calc(100vh - 206px);
+}
+
+.favorites-wrapper__main .favorites-title {
+  color: white;
+  font-family: 'Overpass', sans-serif;
+}
+
+.favorites-wrapper__main .cocktail-list-fav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.favorites-wrapper__main .cocktail-list-fav__name {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.favorites-wrapper__main .cocktail-list-fav__name:hover img {
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  border-radius: 50%;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.favorites-wrapper__main .cocktail-list-fav__name:hover p {
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  color: #f45a7f;
+}
+
+.favorites-wrapper__main .cocktail-list-fav__name p {
+  color: white;
+  font-size: 20px;
+  margin-top: 8px;
+  max-width: 200px;
+}
+
+.favorites-wrapper__main .cocktail-list-fav__name img {
+  height: 200px;
+  width: auto;
+  border-radius: 50px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.favorites-wrapper .cocktails-navigation-fav button {
+  all: unset;
+  padding: 3px 24px 0px;
+  margin: 0px 10px;
+  border-radius: 20px;
+  line-height: 40px;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+  background-color: #f45a7f;
+  color: white;
+}
+
+.favorites-wrapper .cocktails-navigation-fav button:hover {
+  background-color: white;
+  color: #f45a7f;
+  border-color: white;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+@media (min-width: 600px) {
+  .favorites-wrapper .favorites-title {
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=cocktail-list-fav.css.map */

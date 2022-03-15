@@ -1,0 +1,30 @@
+{
+  "name": "ch-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heber2525/2022-W2-CH2-Heber-Baraybar-.git"
+  },
+  "author": "Heber",
+  "prettier": {
+    "singleQuote": true
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heber2525/2022-W2-CH2-Heber-Baraybar-/issues"
+  },
+  "homepage": "https://github.com/heber2525/2022-W2-CH2-Heber-Baraybar-#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}

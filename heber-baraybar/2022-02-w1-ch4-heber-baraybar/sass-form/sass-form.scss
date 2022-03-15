@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 560px;
+}
+.header{
+    display: flex;
+    background-color: rgb(66, 66, 143);
+    justify-content: space-between;
+    align-items: center;
+}
+.header__h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.header__menu-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding-right: 30px;
+ 
+}
+.header-list-bold{
+    font-weight: bold;
+}

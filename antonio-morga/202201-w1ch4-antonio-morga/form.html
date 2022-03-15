@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Lista de la Compra</title>
+    <meta name="description" content="página para hacer la lista de la compra">
+    <script src="https://kit.fontawesome.com/11c3f23555.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="nav">
+        <h1 class="page-title">Lista de la compra</h1>
+        <ul class="menu">
+            <li class="menu__item menu__item--1">Principal</li>
+            <li class="menu__item menu__item--2">Lista</li>
+            <li class="menu__item menu__item--3">Acerca de</li>
+        </ul>
+    </header>
+    <main class="article-edit">
+        <div class="items-bought">
+            <a class="items-bought__plus-icon" href="index.html"><i class="fas fa-minus-circle"></i></a>
+            <p class="items-bought__counter">2/3 Comprados</p>
+        </div>
+        <div class="article-edit__title">
+            <h2>Editar artículo</h2>
+        </div>
+        <form action="">
+            <div class="article-edit__form-body">
+                
+                <label class="article-edit__input-label" for="name">Nombre</label>
+                <input class="article-edit__input" type="text" id="name" required>
+
+                <label class="article-edit__input-label" for="price">Precio</label>
+                <input class="article-edit__input" type="text" name="price-area" id="price" required>
+                <input class="article-edit__submit" type="submit" value="Modificar">
+                
+            </div>
+        </form>
+    </main>
+</body>
+</html>

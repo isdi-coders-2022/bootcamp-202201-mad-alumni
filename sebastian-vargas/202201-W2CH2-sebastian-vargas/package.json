@@ -1,0 +1,25 @@
+{
+    "name": "202201-w01ch03_sebastian-vargas",
+    "version": "1.0.0",
+    "description": "",
+    "main": "functions.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint -v"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sebsVR/202201-W2CH2-sebastian-vargas.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sebsVR/202201-W2CH2-sebastian-vargas/issues"
+    },
+    "homepage": "https://github.com/sebsVR/202201-W2CH2-sebastian-vargas#readme",
+    "devDependencies": {
+        "eslint": "^8.7.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.25.4"
+    }
+}

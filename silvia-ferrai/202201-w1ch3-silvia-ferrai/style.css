@@ -1,0 +1,121 @@
+* {
+    font-family: "Nunito", sans-serif;   
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.logo {
+  
+    width: 70px;
+    height: 70px;
+}
+.nav-group {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-weight:600; 
+    
+}
+hr {
+    margin: 0;
+    height: 10px;
+    border: 0;
+     box-shadow: 0 10px 10px -10px #8c8c8c inset;
+}
+.header2 {
+    display: flex;
+    justify-content:space-between;
+}
+.nav-group__list {
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 200px;
+    
+}
+.container-image {
+    width: 300px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 15px;
+    border-radius: 10%;
+    
+}
+
+.container-image:nth-child(1) {
+    background-image: url(./images/01.jpg);
+}
+
+.container-image:nth-child(2) {
+    background-image: url(./images/02.jpg);
+}
+
+.container-image:nth-child(3) {
+    background-image: url(./images/03.jpg);
+}
+.button {
+    background-color: white;
+    border: #dd6b45 2px solid;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 60px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    display: flex;
+    float: right;
+}
+
+.name-page {
+    color:#dd6b45;
+    font-size: 2ch;
+    padding-left:40px;
+}
+.title-page {
+    font-size: 6ch;
+    padding-left:40px;
+    margin: 5px;
+}
+button:hover {
+    background-color: #dd6b45;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.nav-group__list:hover {
+    color:#dd6b45;  
+}
+
+.sub-list {
+   display:none;
+   list-style: none;
+   text-decoration: none;
+}
+nav-group__list--active:hover > .sub-list {
+    display: block;
+    
+}
+.pic-activity {
+    color:white;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+.pic-activity--title {
+    font-weight: 200;
+    color: white;
+}
+.container-image:hover > .pic-activity {
+    display: block;
+   
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Lista de la Compra</title>
+    <meta name="description" content="página para hacer la lista de la compra">
+    <script src="https://kit.fontawesome.com/11c3f23555.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="nav">
+        <h1 class="page-title">Lista de la compra</h1>
+        <ul class="menu">
+            <li class="menu__item menu__item--1">Principal</li>
+            <li class="menu__item menu__item--2">Lista</li>
+            <li class="menu__item menu__item--3">Acerca de</li>
+        </ul>
+    </header>
+    <main class="shopping-planning">
+        <div class="items-bought">
+            <a class="items-bought__plus-icon" href="form.html"><i class="fas fa-plus-circle"></i></a>
+            <p class="items-bought__counter">2/3 Comprados</p>
+        </div>
+        <ul class="shopping-list">
+            <li class="shopping-list__item">
+                <div>
+                    <div class="shopping-list__item-name">
+                        <span><input type="checkbox"></span>
+                        <span><p class=" shopping-list__item-price--bought">Pan</p></span>
+                    </div>
+                    <div class="shopping-list__item-price">
+                        <p class=".title-size">0.75€</p>
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+            </li>
+            <li class="shopping-list__item">
+                <div>
+                    <div class="shopping-list__item-name">
+                        <span><input type="checkbox"></span>
+                        <span><p>Azúcar</p></span>
+                    </div>
+                    <div class="shopping-list__item-price">
+                        <p></p>
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+            </li>
+            <li class="shopping-list__item">
+                <div>
+                    <div class="shopping-list__item-name">
+                        <span><input type="checkbox"></span>
+                        <span><p class=" shopping-list__item-price--bought">Leche</p></span>
+                    </div>
+                    <div class="shopping-list__item-price">
+                        <span><p class=".title-size">1.20€</p></span>
+                        <span><i class="fas fa-times"></i></span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="total">
+            <div class="total__block">
+                <p class=".title-size">1.95€</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

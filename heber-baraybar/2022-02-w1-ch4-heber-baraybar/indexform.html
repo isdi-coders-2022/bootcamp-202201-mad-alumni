@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-form/style-form.css">
+    <title>Form Page</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Lista de la compra</h1>
+        <nav class="header__menu">
+            <ul class="header__menu-list">
+                <li><a href="#"></a>Principal</li>
+                <li class="header-list-bold"><a href="#"></a>Lista</li>
+                <li><a href="#"></a>Acerca de</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div class="container__form">
+            <h2 class="form__title">Editar artículo</h2>
+            <form class="form" action="" method="post" >
+                <ul class="form__list">
+                    <li  class="form__list --label-name">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" class="form__list --input-name" />
+                    </li>
+                    
+                        <li class="form__list --label-price">
+                            <label for="name">Price:</label>
+                            <div class="form__price"><input class="form__list --input-price" type="number" id="name" /><span class="form__list --euro-simbol">€</span></div>
+                        </li>
+                 
+                    <li>
+                        <button class="button" type="submit" >Modificar</button>
+                    </li>
+                </ul>
+        </div>
+    </main>
+</body>
+</html>

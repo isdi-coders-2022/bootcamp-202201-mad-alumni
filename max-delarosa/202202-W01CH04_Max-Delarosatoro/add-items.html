@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Editar item">
+    <title>Editar item</title>
+    <script src="https://kit.fontawesome.com/4093632a17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Lista de la compra</h1>
+
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__list-item">Principal</li>
+                <li class="header__list-item header__list-item--active">Lista</li>
+                <li class="header__list-item">Acerca de</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="summary">
+            <a class="summary__link" href="./index.html">
+                <i class="fas fa-minus-circle summary__add-icon"></i>
+            </a>
+            <span class="summary__bought-items">2/3 comprados</span>
+        </div>
+
+        <div class="add-item">
+            <form action="get" class="add-item__form">
+                <h2 class="add-item__form-title">Editar artículo</h2>
+                <div class="add-item__input-container">
+                    <label for="food-name" class="add-item__label">Nombre:</label>
+                    <input id="food-name" type="text" class="add-item__input-box">
+                </div>
+                <div class="add-item__input-container">
+                    <label for="food-price" class="add-item__label">Precio:</label>
+                    <div class="add-item__amount-container">
+                        <input id="food-price" type="number" class="add-item__input-box">
+                        <span class="add-item__currency">€</span>
+                    </div>
+                </div>
+                <button type="submit" class="add-item__submit-button">Modificar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

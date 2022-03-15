@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.shopping-list__price, .shopping-list__items, .purchased-menu, .navbar__menu, .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: #6480cb;
+  height: 70px;
+  align-items: center;
+}
+
+.navbar__menu {
+  max-width: 100%;
+  column-gap: 10px;
+}
+
+main {
+  height: calc(100vh - 70px);
+}
+
+.purchased-menu {
+  align-items: center;
+  background-color: #e87d30;
+  height: 70px;
+}
+
+.navbar__menu__item--bold {
+  font-weight: bold;
+}
+
+.shopping {
+  background-color: #f09342;
+  height: 100%;
+}
+
+.purchased-menu__image {
+  height: 3em;
+  border-radius: 50%;
+}
+
+.shopping-list__price {
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */

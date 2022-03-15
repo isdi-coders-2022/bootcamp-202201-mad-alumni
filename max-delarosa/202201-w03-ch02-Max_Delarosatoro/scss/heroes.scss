@@ -1,0 +1,89 @@
+@use 'variables';
+@use 'normalize';
+
+@use 'header';
+
+.my-heroes {
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        color: variables.$primary-color;
+        margin-bottom: 1rem;
+    }
+
+    &__input-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input-title {
+        color: variables.$primary-color;
+        font-size: 1rem;
+    }
+
+    &__input {
+        padding: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__submit-button {
+        width: fit-content;
+        padding: 0.5rem 0.8rem;
+        background-color: variables.$secondary-color;
+        border-radius: 0.4rem;
+        color: variables.$primary-color;
+        border: none;
+        margin-bottom: 2rem;
+        cursor: pointer;
+    }
+
+    &__hero-outside-container {
+        position: relative;
+        width: fit-content;
+    }
+
+    &__hero-link {
+        text-decoration: none;
+        color: black;
+    }
+
+    &__hero-container {
+        display: flex;
+        width: 240px;
+        height: 35px;
+        column-gap: 1rem;
+        align-items: center;
+        background-color: #eeeeee;
+        margin-bottom: 8px;
+        border-radius: 10px;
+    }
+
+    &__hero-id {
+        background-color: variables.$primary-color;
+        display: block;
+        height: 100%;
+        color: white;
+        line-height: 35px;
+        width: 35px;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    &__delete-button {
+        position: absolute;
+        display: block;
+        width: 30px;
+        height: 25px;
+        background-color: white;
+        border-radius: 5px;
+        line-height: 25px;
+        text-align: center;
+        right: 10px;
+        bottom: 0px;
+        cursor: pointer;
+        z-index: 1;
+    }
+}

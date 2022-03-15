@@ -1,0 +1,26 @@
+{
+  "name": "202201-w2ch2-jesus-rodriguez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusrodriguezgonzalez/202201-W2CH2-jesus-rodriguez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesusrodriguezgonzalez/202201-W2CH2-jesus-rodriguez/issues"
+  },
+  "homepage": "https://github.com/jesusrodriguezgonzalez/202201-W2CH2-jesus-rodriguez#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0"
+  },
+  "type": "module"
+}

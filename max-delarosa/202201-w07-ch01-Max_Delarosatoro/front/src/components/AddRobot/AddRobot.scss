@@ -1,0 +1,35 @@
+.add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    min-height: 350px;
+    width: 350px;
+    color: white;
+    padding: 2rem;
+    row-gap: 1rem;
+    background-color: #2a6f97;
+    position: relative;
+
+    &__field-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__field-label {
+        display: block;
+    }
+    &__field {
+        &--range-value {
+            width: 30px;
+        }
+    }
+
+    &__button {
+        padding: 0.3rem 0.6rem;
+        align-self: flex-end;
+    }
+}

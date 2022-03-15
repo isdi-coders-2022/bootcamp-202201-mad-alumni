@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header {
+  background-color: #282828;
+}
+
+.header .header-h1 {
+  display: none;
+}
+
+.header .header-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  top: -3rem;
+}
+
+.header .header-images .header-img {
+  height: 13rem;
+  width: 13rem;
+}
+
+.header .header-images .header-menu-icon {
+  color: #c5b8b8;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.header .header-images .menuitem {
+  cursor: none;
+  padding-top: 1.5rem;
+  margin-left: -4.5rem;
+}
+
+.header .header-images .menu__item-link {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.header .desktop-nav {
+  display: none;
+}
+
+.header .desktop-nav .desktop-nav__menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 7rem;
+  margin-right: 4rem;
+}
+
+.header .desktop-nav .desktop-nav__menu .menu__item-link {
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .header {
+    height: 4rem;
+  }
+  .header .desktop-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .desktop-nav .desktop-nav__menu {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .header .desktop-nav .desktop-nav__menu > li {
+    padding-right: 20px;
+  }
+  .header .desktop-nav .desktop-home:hover {
+    color: #f36183;
+    cursor: pointer;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  .header .desktop-nav .desktop-favourites:hover {
+    color: #f36183;
+    cursor: pointer;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  .header .header-images .header-menu-icon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header-style.css.map */

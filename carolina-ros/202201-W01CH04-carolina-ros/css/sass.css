@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "dongle", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: mediumpurple;
+  height: 100px;
+  padding: 1rem;
+}
+.header .page-title {
+  font-size: 30px;
+}
+.header .header-menu {
+  list-style-type: none;
+  display: flex;
+  column-gap: 10px;
+  color: black;
+}
+.header__list-lista {
+  font-weight: bold;
+}
+
+main {
+  height: calc(100vh - 100px);
+}
+main .plus-comprados {
+  background-color: #c95a31;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+main .items {
+  height: 100%;
+  background-color: sandybrown;
+}
+main .pan-check {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+main .items:hover {
+  cursor: pointer;
+}
+main .pan-check:hover {
+  color: grey;
+}
+main .azucar-check:hover {
+  color: grey;
+}
+main .leche-check:hover {
+  color: grey;
+}
+main .precio-total {
+  border-top: white;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=sass.css.map */

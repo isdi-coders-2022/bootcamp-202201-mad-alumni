@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: yellow;
+}
+.header-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+  height: 200px;
+}
+#details-pokemon {
+  height: 250px;
+  width: 250px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 10px;
+  border-style: double;
+  background-color: yellow;
+  list-style: none;
+}
+#details-pokemon img {
+  width: 150px;
+}
+#details-pokemon:hover {
+  box-shadow: 5px 5px 5px 5px black;
+  transition: 1s;
+}
+.container {
+  padding-top: 100px;
+  text-align: center;
+}
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  width: 90%;
+  margin: 0 auto;
+}
+.pokemon-list li:hover {
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 7px 5px 5px 5px black;
+  transition: 0.5s;
+}
+.pokemon-list button:hover {
+  width: 120px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.container li {
+  background-color: yellow;
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+}
+.container li a {
+  text-decoration: none;
+  color: black;
+}
+.button-direcction {
+  text-align: center;
+}
+.button-direcction button {
+  width: 100px;
+  padding: 10px;
+  background-color: yellow;
+  cursor: pointer;
+}
+.button-direcction button:hover {
+  box-shadow: 5px grey;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+.button-details {
+  text-align: center;
+}
+.button-details button {
+  margin: 20px;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 100px;
+}
+.button-details a {
+  text-decoration: none;
+}
+.button-details :hover {
+  background-color: burlywood;
+}

@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.shop-list {
+  width: 50%;
+  margin: 150px auto;
+  height: 1000px;
+}
+
+header {
+  display: flex;
+  background-color: #5e81d1;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+header h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+header ul li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: 22px;
+}
+
+.page {
+  background-color: #f87500;
+  height: 100px;
+  border-bottom: solid 1px #d66808;
+}
+.page ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 20px;
+  align-content: center;
+}
+.page ul li {
+  list-style: none;
+  font-size: 30px;
+}
+.page img {
+  width: 35px;
+}
+
+.third-colour {
+  background-color: #ff8d27;
+}
+
+.list-products {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.list-products img {
+  width: 20px;
+}
+.list-products .products .crossed {
+  text-decoration: line-through;
+}
+.list-products .products ul {
+  margin-left: 30px;
+}
+.list-products .products ul li {
+  list-style: none;
+  line-height: 70px;
+  font-size: 30px;
+}
+.list-products .products ul li input[type=checkbox] {
+  transform: scale(2.5);
+  margin-right: 15px;
+}
+.list-products .prices {
+  display: flex;
+  justify-content: center;
+}
+.list-products .prices ul {
+  margin-right: 30px;
+}
+.list-products .prices ul li {
+  list-style: none;
+  line-height: 70px;
+  font-size: 32px;
+}
+
+.line {
+  border-bottom: #dbba9c solid 2px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.price-total {
+  height: 300px;
+  background-color: #ff8d27;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+/*  SEGUNDA HOJA  */
+.list-articles {
+  height: 700px;
+}
+.list-articles h2 {
+  padding-top: 55px;
+  margin-left: 20px;
+  font-size: 35px;
+}
+.list-articles .block {
+  display: block;
+  margin-bottom: 15px;
+}
+.list-articles .form {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 27px;
+}
+.list-articles .form div {
+  display: flex;
+}
+.list-articles .form div p {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.list-articles .form button {
+  height: 70px;
+  background-color: #5e81d1;
+  color: white;
+  width: 160px;
+  font-size: 28px;
+  border: 0;
+}
+.list-articles .text {
+  height: 70px;
+  width: 350px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.header {
+  padding: 2rem 5rem;
+  flex-direction: column;
+  display: flex;
+  row-gap: 1.5rem;
+}
+.header__title {
+  color: #264d73;
+  font-size: 2.5rem;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+.header__link {
+  text-decoration: none;
+}
+.header__link-text {
+  display: block;
+  padding: 0.8rem 0.5rem;
+  background-color: #e8e8e8;
+  width: fit-content;
+  border-radius: 0.5rem;
+  color: #264d73;
+}
+
+.my-heroes {
+  padding: 0rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.my-heroes__title {
+  color: #3f515c;
+  margin-bottom: 1rem;
+}
+.my-heroes__input-container {
+  display: flex;
+  flex-direction: column;
+}
+.my-heroes__input-title {
+  color: #3f515c;
+  font-size: 1rem;
+}
+.my-heroes__input {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.my-heroes__submit-button {
+  width: fit-content;
+  padding: 0.5rem 0.8rem;
+  background-color: #e8e8e8;
+  border-radius: 0.4rem;
+  color: #3f515c;
+  border: none;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.my-heroes__hero-outside-container {
+  position: relative;
+  width: fit-content;
+}
+.my-heroes__hero-link {
+  text-decoration: none;
+  color: black;
+}
+.my-heroes__hero-container {
+  display: flex;
+  width: 240px;
+  height: 35px;
+  column-gap: 1rem;
+  align-items: center;
+  background-color: #eeeeee;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+.my-heroes__hero-id {
+  background-color: #3f515c;
+  display: block;
+  height: 100%;
+  color: white;
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.my-heroes__delete-button {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 25px;
+  background-color: white;
+  border-radius: 5px;
+  line-height: 25px;
+  text-align: center;
+  right: 10px;
+  bottom: 0px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=heroes.css.map */

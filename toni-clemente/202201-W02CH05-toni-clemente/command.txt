@@ -1,0 +1,1 @@
+C:\sonar-scanner-4.6.2.2472-windows\bin\sonar-scanner.bat -D"sonar.projectKey=challenge5" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=3d2aeb2fd5bc192257bda35097c43dcfcf313169"

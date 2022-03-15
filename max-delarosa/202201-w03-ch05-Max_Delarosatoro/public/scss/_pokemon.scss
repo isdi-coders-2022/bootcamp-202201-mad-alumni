@@ -1,0 +1,121 @@
+@use 'variables';
+
+.main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#pokemon {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: calc(100vw / 8);
+    border: 1px solid black;
+    padding: 3rem;
+    background-color: variables.$primary-color;
+    box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.6);
+    max-width: 1000px;
+    width: fit-content;
+    border-radius: 1rem;
+
+    &__img-title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // width: 50%;
+    }
+
+    &__title {
+        font-size: 2.5rem;
+        text-transform: capitalize;
+    }
+
+    &__img {
+        width: 10rem;
+    }
+
+    &__sprites-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__sprite-container {
+        width: 40px;
+    }
+
+    &__sprite {
+        width: 100%;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    &__info-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    &__info-title {
+        font-size: 1.5rem;
+    }
+
+    &__abilities-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.2rem;
+    }
+
+    &__abilities-title {
+    }
+
+    &__ability-container {
+    }
+
+    &__ability-name {
+        text-transform: capitalize;
+    }
+
+    &__info-paragraph {
+    }
+
+    &__info-label {
+        font-weight: bold;
+    }
+
+    &__types-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.2rem;
+    }
+
+    &__type {
+        text-transform: capitalize;
+    }
+
+    &__add-button,
+    &__button {
+        align-self: center;
+        padding: 0.3rem 0.5rem;
+        background-color: variables.$secondary-color;
+        border-radius: 5px;
+        font-weight: bold;
+        border: none;
+        color: variables.$primary-color;
+        cursor: pointer;
+        min-width: 120px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

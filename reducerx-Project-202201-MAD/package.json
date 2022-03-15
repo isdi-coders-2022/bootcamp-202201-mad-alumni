@@ -1,0 +1,90 @@
+{
+    "name": "reducerx-project-202201-mad",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@auth0/auth0-react": "^1.9.0",
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.2",
+        "@testing-library/react-hooks": "^7.0.2",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^0.26.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-react": "^7.28.0",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "hamburger-react": "^2.4.1",
+        "prop-types": "^15.8.1",
+        "react": "^17.0.2",
+        "react-burger-menu": "^3.0.6",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^6.2.1",
+        "react-scripts": "5.0.0",
+        "sass": "^1.49.7",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "test:coverage": "CI=true npm test -- --env=jsdom --coverage",
+        "eject": "react-scripts eject",
+        "lint": "eslint ."
+    },
+    "eslintConfig": {
+        "extends": [
+            "airbnb",
+            "react-app",
+            "react-app/jest",
+            "plugin:react/jsx-runtime",
+            "prettier"
+        ],
+        "rules": {
+            "react/jsx-filename-extension": [
+                1,
+                {
+                    "extensions": [
+                        ".js",
+                        ".jsx"
+                    ]
+                }
+            ],
+            "import/prefer-default-export": "off",
+            "react/prop-types": "off",
+            "no-console": "off"
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "prettier": {
+        "singleQuote": true
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+        "@testing-library/dom": "^8.11.3",
+        "eslint-config-prettier": "^8.3.0",
+        "husky": "^7.0.4"
+    },
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    }
+}

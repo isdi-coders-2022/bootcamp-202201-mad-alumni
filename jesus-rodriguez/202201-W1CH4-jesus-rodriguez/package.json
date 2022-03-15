@@ -1,0 +1,23 @@
+{
+    "name": "202201-w1ch4-jesus-rodriguez",
+    "version": "1.0.0",
+    "description": "202201-W1CH4-jesus-rodriguez ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass:watch": "sass --watch sass:styles"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jesusrodriguezgonzalez/202201-W1CH4-jesus-rodriguez.git"
+    },
+    "author": "Jesús Rodriguez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jesusrodriguezgonzalez/202201-W1CH4-jesus-rodriguez/issues"
+    },
+    "homepage": "https://github.com/jesusrodriguezgonzalez/202201-W1CH4-jesus-rodriguez#readme",
+    "dependencies": {
+        "sass": "^1.49.0"
+    }
+}

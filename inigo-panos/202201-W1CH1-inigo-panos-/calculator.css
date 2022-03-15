@@ -1,0 +1,92 @@
+.resultados {
+    display: flex;    
+    position: relative; top: 0; bottom: 0; left: 0; right: 0; 
+
+    margin: auto;
+    flex-direction: column;
+
+    height: 100px;
+    width: 200px;
+
+    background-color: lavender;
+}
+
+.resultados #valorPre{
+    text-align: center;   
+
+    line-height: 3em;
+
+    height: 50px;
+    width: 200px;
+    background-color: #c6cc6d;
+}
+
+.resultados #valorPro{
+    text-align: center;
+
+    line-height: 3em;
+
+    height: 50px;
+    width: 200px;
+}
+
+.calculadora{
+    margin-top: 5%;
+    display: flex;
+}
+
+table{
+    margin: auto;
+    background-color: #bdb6b68f;
+    width: 350px;
+
+    text-align: center;
+    table-layout: fixed;
+}
+
+.c{
+    background-color: #645f58;
+}
+
+td{
+    color: red;
+    font-size: 20px;
+    background-color: #C9C5B7;
+    box-sizing: border-box;
+    border: solid #C6C9CC 2px;
+    width: 85px;
+    height: 66px;
+}
+
+.num{
+    background-color: #c79456;
+}
+
+.operacion{
+    background-color: #b49f86;
+}
+
+.cero{
+    color: yellow;
+}
+.res{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    gap: 5px;
+    margin: 0 5px 0 5px;
+}
+
+
+.empty{
+    border-style: none;
+}
+
+body{
+    background-color: #7B7683;
+    overflow: hidden;
+}
+
+
+
+

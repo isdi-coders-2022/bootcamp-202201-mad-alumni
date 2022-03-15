@@ -1,0 +1,9 @@
+{
+  "Pokemon": [
+    {
+      "name": "charmeleon",
+      "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png",
+      "id": 1
+    }
+  ]
+}

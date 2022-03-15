@@ -1,0 +1,22 @@
+.container {
+  background-color: #032e61;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.try {
+  display: flex;
+  justify-content: center;
+}
+.trybtn {
+  width: 100px;
+  height: 40px;
+  background-color: #217405;
+}
+.trybtn:hover {
+  background-color: #165003;
+}

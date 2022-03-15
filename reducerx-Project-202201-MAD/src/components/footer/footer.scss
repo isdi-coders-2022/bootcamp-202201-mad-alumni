@@ -1,0 +1,30 @@
+footer {
+    padding-top: 2rem;
+    width: 100vw;
+    color: white;
+
+    .footer-image {
+        height: 5rem;
+        width: auto;
+    }
+
+    .go-top-item {
+        text-decoration: none;
+        color: #f45a7f;
+    }
+
+    .footer-sign {
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// ++++ Media Query for Desktop ++++
+@media (min-width: 600px) {
+    footer {
+        .go-top-item {
+            display: none;
+        }
+    }
+}

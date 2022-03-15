@@ -1,0 +1,21 @@
+@use '../../../sass/variables';
+
+.header {
+    height: 100px;
+    background-color: variables.$primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+    &__link {
+        text-decoration: none;
+        color: variables.$fourth-color;
+        transition: 0.3s ease all;
+
+        &:hover {
+            color: white;
+            transition: 0.3s ease all;
+        }
+    }
+}

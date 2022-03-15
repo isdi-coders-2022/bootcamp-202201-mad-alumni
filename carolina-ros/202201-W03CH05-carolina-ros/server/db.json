@@ -1,0 +1,22 @@
+{
+  "Pokemon": [
+    {
+      "id": 25,
+      "name": "pikachu",
+      "url": "https://pokeapi.co/api/v2/pokemon/25/",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    {
+      "id": 77,
+      "name": "ponyta",
+      "url": "https://pokeapi.co/api/v2/pokemon/77/",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+    },
+    {
+      "id": 78,
+      "name": "rapidash",
+      "url": "https://pokeapi.co/api/v2/pokemon/78/",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+    }
+  ]
+}

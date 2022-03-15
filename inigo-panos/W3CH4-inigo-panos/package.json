@@ -1,0 +1,41 @@
+{
+    "name": "dia4-async",
+    "version": "1.0.0",
+    "description": "To do list",
+    "main": "./javaScript/index.html",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "jest --watchAll",
+        "test:cov": "jest --coverage",
+        "lint": "eslint"
+    },
+    "author": "Íñigo Paños",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "prettier": "^2.5.1"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jest": "^26.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "eslint-prettier": "^0.0.0-empty"
+    },
+    "prettier": {
+        "singleQuote": true
+    },
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    }
+}

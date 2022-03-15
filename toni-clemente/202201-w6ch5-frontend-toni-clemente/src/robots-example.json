@@ -1,0 +1,43 @@
+{   
+        "name": "Massacre",
+        "image": "https://www.clementoni.com/media/prod/es/15285/crea-tu-robot_hmzWnwU.jpg",
+        "speed": 3,
+        "stamina": 1,
+        "date": 2018
+   
+    },
+    {
+        "name": "MetalPsycho",
+        "image": "https://www.clementoni.com/media/prod/es/55191/evolution-robot_jFT67Gt.jpg",
+        "speed": 5,
+        "stamina": 3,
+        "date": 2017   
+    },
+    {
+        "name": "BloodThirst",
+        "image": "https://static.educalingo.com/img/fr/800/robot.jpg",
+        "speed": 3,
+        "stamina": 4,
+        "date": 2015  
+    },
+    {  
+        "name": "Cerberus",
+        "image": "https://i.blogs.es/e7a36f/lttle-white-dragon-01/450_1000.jpeg",
+        "speed": 7,
+        "stamina": 5,
+        "date": 2021
+    },
+    {
+        "name": "WorldsDestructor",
+        "image": "https://us.123rf.com/450wm/cheskyw/cheskyw1607/cheskyw160700061/62495773-robot-de-color-naranja-aislada-sobre-fondo-blanco-imagen-de-representaci%C3%B3n-3d.jpg",
+        "speed": 1,
+        "stamina": 1,
+        "date": 2020
+    },
+    {
+        "name": "HellRaiser",
+        "image": "http://luxai.com/wp-content/uploads/2021/01/QTrobot-autism-robo-teaching-emotions-to-ASD.jpg",
+        "speed": 1,
+        "stamina": 1,
+        "date": 2020  
+    }

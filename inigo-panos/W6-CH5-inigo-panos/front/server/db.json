@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Create json-server",
+      "responsible": "Pepe",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "name": "Update json-server",
+      "responsible": "Ernesto",
+      "isCompleted": false
+    }
+  ]
+}

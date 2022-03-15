@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 560px;
+}
+.header{
+    display: flex;
+    background-color: rgb(66, 66, 143);
+    justify-content: space-between;
+    align-items: center;
+}
+.header__h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.header__menu-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding-right: 30px;
+
+}
+.header-list-bold{
+    font-weight: bold;
+}
+.container__form{
+   background-color:orange;
+
+}
+.form__list{
+    display: flex;
+    flex-direction: column;
+}
+.form__title{
+   margin-left: 30px;
+   padding-top: 30px;
+}
+
+.--input-name{
+     height: 50px;
+    width: 120px;
+}
+.--label-price{
+    margin-top: 20px;
+}
+.--input-price{
+    height: 50px;
+    width: 120px;
+}
+.button{
+    background-color: rgb(65, 65, 121);
+    color: white;
+    height: 40px;
+    margin-top: 10px;
+}
+.--euro-simbol{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.form__price{
+  
+    display: flex;
+    
+}

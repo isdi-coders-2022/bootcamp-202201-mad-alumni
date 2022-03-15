@@ -1,0 +1,23 @@
+{
+  "name": "202201-w1ch5-silvia-ferrai",
+  "version": "1.0.0",
+  "description": "Panic!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch sass:styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laMaritrini/202201-w1ch5-silvia-ferrai.git"
+  },
+  "author": "Silvia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laMaritrini/202201-w1ch5-silvia-ferrai/issues"
+  },
+  "homepage": "https://github.com/laMaritrini/202201-w1ch5-silvia-ferrai#readme",
+  "dependencies": {
+    "sass": "^1.49.0"
+  }
+}

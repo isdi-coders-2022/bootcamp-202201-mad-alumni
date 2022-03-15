@@ -1,0 +1,26 @@
+footer {
+  padding-top: 2rem;
+  width: 100vw;
+  color: white;
+}
+
+footer .footer-image {
+  height: 5rem;
+  width: auto;
+}
+
+footer .go-top-item {
+  text-decoration: none;
+  color: #f45a7f;
+}
+
+footer .footer-sign p {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+  footer .go-top-item {
+    display: none;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,12 @@
+@use '../../../sass/_variables.scss';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: variables.$primary-color;
+    color: white;
+}

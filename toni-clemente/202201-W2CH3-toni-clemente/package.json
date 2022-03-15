@@ -1,0 +1,35 @@
+{
+    "name": "challenge3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint",
+        "test:watch": "jest --watchAll"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.7.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.4",
+        "jest": "^27.4.7"
+    },
+    "type": "module",
+    "dependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+        "eslint-plugin-jest": "^26.0.0"
+    },
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    }
+}

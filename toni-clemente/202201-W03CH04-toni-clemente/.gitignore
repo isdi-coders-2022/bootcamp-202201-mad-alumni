@@ -1,0 +1,4 @@
+node_modules/
+03-todo-list/
+*-lock.json
+coverage/

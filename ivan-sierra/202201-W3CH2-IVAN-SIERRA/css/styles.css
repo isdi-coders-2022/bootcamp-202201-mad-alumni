@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.center{
+    text-align: center;
+}

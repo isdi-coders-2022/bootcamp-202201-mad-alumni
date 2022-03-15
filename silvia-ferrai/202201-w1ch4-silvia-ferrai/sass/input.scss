@@ -1,0 +1,100 @@
+$blue:  rgb(105, 105, 223);
+$orange: #ff4500;
+$light-orange: #ffa500;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$font-page: 'Roboto', sans-serif;
+
+%container-rules {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-page;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+
+}
+.header{
+    height: 100px;
+    background-color: $blue;
+    @extend %container-rules;
+    align-items: baseline;  
+}
+
+.header2 {
+    background-color: $orange;
+    height: 60px;
+    @extend %container-rules;
+    font-size: 20px;
+    
+}
+.page {
+    height: calc(100vh - 100px);
+    background-color: $light-orange;   
+}
+.articles {
+    @extend %container-rules;  
+}
+.total {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+hr {
+    border:none;
+    height: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid white; 
+    margin: -50px auto 10px; 
+}
+.nav__list-item {
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:10px;
+}
+.nav__list-item--bold {
+    font-weight: bold;
+}
+.articles__item--delete {
+    text-decoration-line: line-through;
+}
+.articles:hover {
+    background-color: rgb(139, 136, 136);
+}
+.minus-mas {
+    color: black;
+    
+}
+.total {
+    font-family: $font-page;
+    padding: 33px;
+}
+.button, .form-list__item  {
+    list-style: none;
+    font-family: $font-page;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    color:white;
+    background-color: rgb(71, 115, 209);
+    border: none;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+form {
+    margin-left: 10px;
+    padding: 20px;
+}
+.form-list__item--input {
+    width: 50%;
+    border: none;
+}

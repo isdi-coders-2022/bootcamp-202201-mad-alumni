@@ -1,0 +1,96 @@
+%common-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: orange;
+    font-size: 18px;
+}
+%exis{
+    width: 16px;
+    height: 16px;
+}
+%common-x{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-right: 10px;
+}
+%cross-font{
+    text-decoration: line-through;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 560px;
+}
+.header{
+    display: flex;
+    background-color: rgb(66, 66, 143);
+    justify-content: space-between;
+    align-items: center;
+}
+.header__h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.header__menu-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    padding-right: 30px;
+ 
+}
+.header-list-bold{
+    font-weight: bold;
+}
+img{
+    @extend %exis;
+}
+.paid__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(187, 137, 45);
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.section__first-price{
+    @extend %common-flex;
+}
+.section__second-price{
+    @extend %common-flex;
+}
+.section__third-price{
+    @extend %common-flex;
+}
+.first__price-x{
+    @extend %common-x;
+}
+.second__price-x{
+    margin-right: 10px;
+}
+.third__price-x{
+    @extend %common-x;
+    
+}
+.--check-bread{
+    @extend %cross-font;
+}
+.--check-milk{
+   text-decoration: line-through;
+}
+.section__final-price{
+   padding-right: 10px;
+    height: 50px;
+    background-color: orange;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 1px;
+    padding-top: 10px;
+}
+

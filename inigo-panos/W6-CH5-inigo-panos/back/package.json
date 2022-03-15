@@ -1,0 +1,54 @@
+{
+    "name": "08-mongoose",
+    "version": "1.0.0",
+    "description": "To do list",
+    "main": "./javaScript/index.html",
+    "scripts": {
+        "start": "cross-env NODE_ENV=dev nodemon",
+        "start:build": "cross-env NODE_ENV=prod node index.js",
+        "test": "cross-env NODE_ENV=test jest --watchAll",
+        "lint": "eslint"
+    },
+    "author": "Íñigo Paños",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "cross-env": "^7.0.3",
+        "express": "^4.17.3",
+        "inquirer": "^8.2.0",
+        "jest": "^27.5.1",
+        "mongoose": "^6.2.3",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15",
+        "prettier": "^2.5.1"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-jest": "^26.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "eslint-prettier": "^0.0.0-empty",
+        "supertest": "^6.2.2"
+    },
+    "prettier": {
+        "singleQuote": true
+    },
+    "type": "module",
+    "babel": {
+        "env": {
+            "test": {
+                "plugins": [
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
+            }
+        }
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}

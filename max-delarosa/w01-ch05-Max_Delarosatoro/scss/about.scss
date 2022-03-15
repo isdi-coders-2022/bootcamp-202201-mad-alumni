@@ -1,0 +1,91 @@
+@use "variables";
+@use "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: variables.$secondary-color;
+}
+
+@import "header";
+
+.main {
+    font-family: variables.$primary-font;
+    padding-bottom: 6rem;
+    background-color: variables.$primary-color;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+
+    &__hero-container {
+        clip-path: polygon(0 30%, 100% 0%, 100% 70%, 0% 100%);
+        width: 100vw;
+        display: none;
+    }
+
+    &__hero-img {
+        width: 100%;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        margin-bottom: 4rem;
+        max-width: 940px;
+        padding: 0 2rem;
+    }
+
+    &__section-title {
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+
+    &__section-paragraph {
+
+    }
+
+    &__section-x {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .main {
+        padding-bottom: 12rem;
+
+        &__hero-container {
+            display: block;
+        }
+
+        &__section--top {
+            padding: 0 2rem;
+        }
+
+        &__bottom-container {
+            padding: 0 2rem;
+            display: flex;
+            max-width: 940px;
+            column-gap: 2rem;
+        }
+    }
+}
+
+@import "footer";
+
+.footer-top-area {
+    top: -198px;
+}

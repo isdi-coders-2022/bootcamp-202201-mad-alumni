@@ -1,0 +1,51 @@
+.add-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border: 2px solid black;
+  border-radius: 1rem;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  min-height: 350px;
+  width: 350px;
+  color: white;
+  padding: 2rem;
+  row-gap: 1rem;
+  background-color: #2a6f97;
+  position: relative;
+}
+
+.add-form__field-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.add-form__field-label {
+  display: block;
+}
+
+.add-form__field--range-value {
+  width: 30px;
+}
+
+.add-form__button {
+  padding: 0.3rem 0.6rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+/*# sourceMappingURL=AddRobot.css.map */

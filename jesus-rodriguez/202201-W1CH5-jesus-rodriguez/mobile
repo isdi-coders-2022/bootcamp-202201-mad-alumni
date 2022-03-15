@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+%header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+%list {
+    list-style: none;
+}
+
+.header {
+    @extend %header;
+    background-color: $bluecolor;
+    padding-right: 50px;
+}
+
+.header__menu {
+    @extend %header;
+    @extend %list;
+    gap: 30px;
+    padding-top: 15px;
+}

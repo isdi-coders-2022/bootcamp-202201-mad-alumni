@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Formulario basico</title>
+    </head>
+    <body>
+        <form>
+            <ul>
+                <li>
+                    <label for="name"
+                        >Nombre:
+                        <input type="text" id="name" name="name" required
+                    /></label>
+                </li>
+                <li>
+                    <label for="name"
+                        >Lastname:
+                        <input
+                            type="text"
+                            id="Lastname"
+                            name="last_name"
+                            required
+                    /></label>
+                </li>
+                <li>
+                    <label for="birthdate"
+                        >Birthdate:
+                        <input
+                            type="date"
+                            id="birthdate"
+                            name="trip-start"
+                            value="1993-10-20"
+                            min="1922-01-01"
+                            max="2022-12-31"
+                            required
+                    /></label>
+                </li>
+                <li>
+                    <label for="gender">Gender:</label>
+
+                    <input type="radio" name="sex" value="male" checked />
+                    Hombre
+                    <input type="radio" name="sex" value="female" /> Mujer
+                </li>
+                <li>
+                    <label for="mail"
+                        >Correo electrónico:
+                        <input
+                            type="email"
+                            id="mail"
+                            name="user_email"
+                            required
+                    /></label>
+                </li>
+                <li>
+                    <label for="newsletter">
+                        Desea recibir información de nuestra newsletter?
+                        <input
+                            type="checkbox"
+                            id="newsletter"
+                            name="newsletter"
+                            value="newsletter"
+                            required
+                        />
+                    </label>
+                </li>
+                <li>
+                    <button>Next</button>
+                </li>
+                <li>
+                    <label for="name"
+                        >Username:
+                        <input type="text" id="name" name="username" required
+                    /></label>
+                </li>
+                <li>
+                    <label for="name"
+                        >Password:
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            required
+                    /></label>
+                </li>
+                <li>
+                    <label for="name"
+                        >Repeat Password:
+                        <input
+                            type="password"
+                            id="repeat_password"
+                            name="repeat_password"
+                            required
+                    /></label>
+                </li>
+
+                <li>
+                    <label for="type_account"
+                        >Type Account:
+                        <select name="type_account" required>
+                            <option value="personal">Personal</option>
+                            <option value="pro" selected>Pro</option>
+                            <option value="business">Bussiness</option>
+                        </select></label
+                    >
+                </li>
+                <li><button>Next</button></li>
+                <li>
+                    <label for="confirm"
+                        >I confirm that all the data is correct
+                        <button type="submit">I confirm</button></label
+                    >
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>

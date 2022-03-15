@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(228, 201, 150);
+    font-family: 'Rowdies', cursive;
+}
+h1 {
+    display: none;
+}
+h2 {
+    margin-left: 40px;
+}
+main {
+    margin-bottom: 100px;
+}
+.logo-img {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.nav-bar__list,
+.button-details {
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+}
+.nav-bar__list--button,
+#button-next,
+#button-back,
+.button-details__add,
+.button-details__delete {
+    border: 1px solid grey;
+    padding: 15px;
+    background-color: black;
+    border-radius: 2rem;
+    color: rgb(255, 166, 0);
+    cursor: pointer;
+}
+.poke-list {
+    display: flex;
+
+    flex-direction: column;
+    margin-left: 60px;
+}
+.poke-list__item,
+.name {
+    display: flex;
+    margin: 2px;
+    color: brown;
+    text-transform: capitalize;
+}
+.details-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+.details-img {
+    width: 200px;
+}

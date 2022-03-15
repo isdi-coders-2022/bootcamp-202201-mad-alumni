@@ -1,0 +1,84 @@
+*{
+    font-family: "Nunito", serif;
+}
+
+.header_nav{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    height: 37px;
+
+    border-bottom: black;
+}
+
+.header_nav__image{
+    align-self: initial;
+    padding-right: 530px;
+}
+
+.header_nav_home{
+    align-self: center;
+    list-style-type: none;
+}
+
+.header_nav_select__pet-select{
+    background-color: white;
+    border-color: white;
+}
+
+.header_nav__button{
+    background-color: white;
+    border-color: #dd6b45 ;
+    border-radius: 0px 12px 12px 12px;
+}
+
+
+
+.section_title_activities{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left: 30px;
+    color: #dd6b45;
+}
+
+
+
+.section_texts_container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.section_texts_container__title2{
+    color:black;
+    font-size: 3rem;
+}
+
+.section_texts_container__button{
+    background-color: #dd6b45;
+    border-color: #dd6b45 ;
+    border-radius: 0px 12px 12px 12px;
+    align-self: center;
+}
+
+
+
+
+.dog_images_container{
+    display: flex;
+    margin-top:80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dog_images_container__dog_image{
+
+    max-width: 350px;
+    max-height: 900px;
+    border-radius: 25px;
+}

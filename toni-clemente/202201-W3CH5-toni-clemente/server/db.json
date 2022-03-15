@@ -1,0 +1,59 @@
+{
+  "pokemons": [
+    {
+      "id": 8,
+      "name": "wartortle",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    {
+      "id": 22,
+      "name": "fearow",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+    },
+    {
+      "id": 21,
+      "name": "spearow",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+    },
+    {
+      "id": 13,
+      "name": "weedle",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+    },
+    {
+      "id": 14,
+      "name": "kakuna",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+    },
+    {
+      "id": 25,
+      "name": "pikachu",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    {
+      "id": 64,
+      "name": "kadabra",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+    },
+    {
+      "id": 6,
+      "name": "charizard",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    {
+      "id": 162,
+      "name": "furret",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png"
+    },
+    {
+      "id": 113,
+      "name": "chansey",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    },
+    {
+      "id": 68,
+      "name": "machamp",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    }
+  ]
+}

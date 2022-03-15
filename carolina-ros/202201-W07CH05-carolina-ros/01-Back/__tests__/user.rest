@@ -1,0 +1,15 @@
+GET http://localhost:4000/users
+###
+
+GET http://localhost:4000/users/6223425d30805ebc50f52194
+
+###
+
+PATCH http://localhost:4000/users/6223425d30805ebc50f52194
+content-type: application/json
+
+{
+  "age": 37
+}
+
+###

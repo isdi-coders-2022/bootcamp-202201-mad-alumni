@@ -1,0 +1,23 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #282828;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

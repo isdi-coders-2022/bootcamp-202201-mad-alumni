@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@400;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <span>
+            <h1 class="navbar__title">Lista de la compra</h1>
+        </span>
+        <nav>
+            <ul>
+                <div class="navbar__menu">
+                    <li><span class="navbar__menu__item">principal</span></li>
+                    <li><span class="navbar__menu__item--bold">lista</span> </li>
+                    <li><span class="navbar__menu__item">Acerca de</span> </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="purchased-menu">
+            <span>
+                <img class="purchased-menu__image" src="./image/+.png" alt="+">
+            </span>
+            <span class="purchased-menu__text">2/3 comprados</span>
+        </section>
+
+        <section class="shopping">
+            <ul class="shopping-list">
+                <li>
+                    <div class="shopping-list__items">
+                        <div>
+                            <input class="shopping-list__items__checkbox" type="checkbox" id="pan">
+                            <label for="pan">Pan</label>
+                        </div>
+                        <div class="shopping-list__items__list">
+
+                            <span class="shopping-list__items__price">
+                                0.75$
+                            </span>
+
+                            <span class="shopping-list__items___quit">x</span>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shopping-list__items">
+                        <div>
+                            <input class="shopping-list__items__checkbox" type="checkbox" id="azucar">
+
+                            <label for="azucar">Azucar</label>
+                        </div>
+                        <div>
+                            <span class="shopping-list__items___quit">x</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="shopping-list__items">
+                        <div>
+                            <input class="shopping-list__items__checkbox" type="checkbox" id="leche">
+                            <label for="leche">Leche</label>
+                        </div>
+                        <div class="shopping-list__items__list">
+
+                            <span class="shopping-list__items__price">1.20$</span>
+
+                            <span class="shopping-list__items___quit">x</span>
+
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+            <hr>
+            <div class="shopping-list__price">1.95$</div>
+        </section>
+    </main>
+</body>
+
+</html>

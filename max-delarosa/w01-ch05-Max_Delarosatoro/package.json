@@ -1,0 +1,17 @@
+{
+    "name": "challenge5",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass:watch": "sass --watch scss:css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "sass": "^1.49.0"
+    }
+}

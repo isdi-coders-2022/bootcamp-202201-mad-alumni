@@ -1,0 +1,524 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+$lightblue: #15ffbc;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// GENERAL STYLES
+
+body {
+    font-family: Oswald;
+}
+
+a {
+    text-decoration: none;
+}
+
+// HEADER STYLES
+
+.header {
+    background-color: $lightblue;
+    padding: 10px;
+}
+
+.navbar-mobile {
+    position: absolute;
+}
+
+// --- DESKTOP NAVBAR STYLES ---
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    column-gap: 0.8em;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    a {
+        color: black;
+    }
+    a:hover {
+        color: grey;
+    }
+    &__item {
+        display: flex;
+    }
+    &__image {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+h1 {
+    display: none;
+}
+
+// --- MAIN PART OF THE HTML STYLES ---
+
+main {
+    background-color: $lightblue;
+}
+
+.video-image-container {
+    &__video-desktop {
+        display: none;
+    }
+    &__pink-car {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.image-container {
+    &__about-image {
+        height: 100%;
+        width: 100%;
+        display: none;
+    }
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    p {
+        font-size: 4em;
+        margin-top: 1em;
+        text-align: center;
+    }
+    &__main-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    &__image-curl {
+        width: 40px;
+    }
+    &__underlined {
+        text-decoration: underline;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    &__underlined:hover {
+        cursor: pointer;
+    }
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.images-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-box__image {
+    height: 100%;
+    width: 100%;
+    transition: transform 0.2s;
+}
+
+.images-box__image:hover {
+    transform: scale(1.1);
+}
+
+// FOOTER STYLES
+
+footer {
+    background-color: black;
+    color: $lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-mobile {
+    h4 {
+        color: white;
+        margin-top: 2.2em;
+        margin-bottom: 0.9em;
+        font-size: 28px;
+    }
+    p {
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+        font-size: 20px;
+    }
+    &__first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        margin: 2em;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+    &__block1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__block2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__social-media {
+        h4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__containers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__image {
+                width: 30px;
+                height: 30px;
+                margin: 0.5em;
+            }
+        }
+    }
+}
+
+.footer-desktop {
+    display: none;
+    h4 {
+        color: white;
+        margin-top: 2.2em;
+        margin-bottom: 0.9em;
+        font-size: 28px;
+        text-align: center;
+    }
+    p:hover {
+        color: rgb(126, 72, 72);
+        cursor: pointer;
+    }
+    &__top {
+        margin-top: 0em;
+        text-align: center;
+        h4 {
+            font-size: 40px;
+            color: $lightblue;
+        }
+        .footer-desktop__top__h4 {
+        }
+        .footer-desktop__top__h4__line-through {
+            text-decoration: line-through white;
+        }
+    }
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        column-gap: 150px;
+        &__right {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            h4 {
+                text-align: right;
+            }
+        }
+        &__left {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            text-align: left;
+            h4 {
+                text-align: left;
+            }
+        }
+        &__center {
+            &__images {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &__image {
+                    width: 30px;
+                    height: 30px;
+                    margin: 0.5em;
+                }
+            }
+        }
+    }
+}
+
+// Work page styles
+
+.images-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.prueba {
+    transition: transform 0.2s;
+}
+
+.prueba:hover {
+    transform: scale(1.1);
+}
+
+// About page styles
+.about-text-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.three-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.block-centered {
+    margin-left: 2em;
+    margin-right: 2em;
+    letter-spacing: 2px;
+    line-height: 25px;
+    h4 {
+        margin-bottom: 1em;
+    }
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2em;
+    letter-spacing: 1px;
+    h4 {
+        margin-bottom: 1em;
+    }
+}
+
+@media (min-width: 600px) {
+    /*A partir de 600 px*/
+
+    .navbar-mobile {
+        display: none;
+    }
+
+    .navbar-menu {
+        &__item {
+            display: none;
+        }
+    }
+
+    .video-image-container {
+        &__video-desktop {
+            display: flex;
+            width: 100%;
+        }
+        &__pink-car {
+            display: none;
+        }
+    }
+
+    .images-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+
+    .footer-desktop {
+        display: inline;
+    }
+
+    .images-container {
+        //display:flex;
+        //flex-direction: row;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+    }
+
+    // About page styles
+    .about-text-blocks {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-container {
+        &__about-image {
+            display: flex;
+        }
+    }
+
+    .block-centered {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .three-blocks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        column-gap: 100px;
+        margin-left: 7em;
+        margin-right: 7em;
+    }
+}

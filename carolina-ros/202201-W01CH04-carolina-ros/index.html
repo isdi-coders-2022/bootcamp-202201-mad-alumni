@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/sass.css" />
+    <title>Shopping List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" type="image/png" />
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="page-title">Lista de la compra</h1>
+
+        <ul class="header-menu">
+            <li class="header-menu__item">
+                <a class="header-menu__list-principal" href="page1">Principal</a>
+            </li>
+            <li class="header-menu__item">
+                <a class="header-menu__list-lista" href="page2">Lista</a>
+            </li>
+            <li class="header-menu__item">
+                <a class="header-menu__list-acerca" href="page3">Acerca de</a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="plus-comprados">
+            <div class="plus-comprados__plus">
+                <i class="fas fa-plus-circle"></i>
+            </div>
+            <span class="plus-comprados__comprados">2/3 comprados</span>
+        </div>
+        <div class="items">
+            <div class="pan-check">
+                <div class="pan-check__checkout">
+                    <input type="checkbox" name="my-checkbox" id="opt-in" />
+                    <label for="opt-in">Pan</label>
+                </div>
+                <div class="pan-precio">
+                    <span class="pan-precio">0.75$</span>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="pan-check">
+                <div class="pan-check__checkout">
+                    <input type="checkbox" name="my-checkbox" id="opt-in" />
+                    <label for="opt-in">Azúcar</label>
+                </div>
+                <div class="pan-precio">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="pan-check">
+                <div class="pan-check__checkout">
+                    <input type="checkbox" name="my-checkbox" id="opt-in" />
+                    <label for="opt-in">Leche</label>
+                </div>
+                <div class="pan-precio">
+                    <span class="leche-precio__checkout">1.20$</span>
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="precio-total">
+                <span class="precio-total__end">1.95$</span>
+            </div>
+        </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

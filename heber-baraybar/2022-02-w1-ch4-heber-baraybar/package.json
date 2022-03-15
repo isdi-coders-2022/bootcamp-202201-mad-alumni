@@ -1,0 +1,24 @@
+{
+  "name": "challenge-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass:css",
+    "sass-form": "sass --watch sass-form:css-form"
+  },
+  "author": "heber",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heber2525/2022-02-w1-ch4-heber-baraybar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heber2525/2022-02-w1-ch4-heber-baraybar/issues"
+  },
+  "homepage": "https://github.com/heber2525/2022-02-w1-ch4-heber-baraybar#readme",
+  "dependencies": {
+    "sass": "^1.49.0"
+  }
+}

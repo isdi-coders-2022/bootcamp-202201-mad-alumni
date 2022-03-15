@@ -1,0 +1,15 @@
+@use '../../../sass/variables';
+
+.button {
+    padding: 0.3rem 0.5rem;
+    color: variables.$secondary-color;
+    transition: 0.3s ease all;
+    cursor: pointer;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: variables.$primary-color;
+        color: variables.$fourth-color;
+        transition: 0.3s ease all;
+    }
+}

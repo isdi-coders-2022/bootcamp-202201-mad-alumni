@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Calculadora</title>
+        <meta name="author" content="Toni Clemente Garcia" />
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+
+    <body>
+        <table id="calculadora">
+            <caption>
+                My calculator
+            </caption>
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="pantalla" value="0" readonly />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input
+                        type="button"
+                        value="AC"
+                        class="largo"
+                        id="boton_borrar"
+                    />
+                </td>
+                <td><input type="button" value="←" id="boton_borrar_Ch" /></td>
+                <td>
+                    <input
+                        type="button"
+                        value="/"
+                        id="boton_Div"
+                        class="aritmetico"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" id="boton_7" /></td>
+                <td><input type="button" value="8" id="boton_8" /></td>
+                <td><input type="button" value="9" id="boton_9" /></td>
+                <td>
+                    <input
+                        type="button"
+                        value="x"
+                        id="boton_Mult"
+                        class="aritmetico"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" id="boton_4" /></td>
+                <td><input type="button" value="5" id="boton_5" /></td>
+                <td><input type="button" value="6" id="boton_6" /></td>
+                <td>
+                    <input
+                        type="button"
+                        value="-"
+                        id="boton_Minus"
+                        class="aritmetico"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" id="boton_1" /></td>
+                <td><input type="button" value="2" id="boton_2" /></td>
+                <td><input type="button" value="3" id="boton_3" /></td>
+                <td>
+                    <input
+                        type="button"
+                        value="+"
+                        id="boton_Plus"
+                        class="aritmetico"
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="0" id="boton_0" class="largo" />
+                </td>
+                <td><input type="button" value="," id="boton_Comma" /></td>
+                <td>
+                    <input
+                        type="button"
+                        value="="
+                        class="aritmetico"
+                        id="boton_calcular"
+                    />
+                </td>
+            </tr>
+        </table>
+        <script src="index.js"></script>
+    </body>
+</html>
